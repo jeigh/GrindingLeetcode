@@ -1,4 +1,4 @@
-﻿namespace TwoSum
+﻿namespace LeetCodeProblems.TwoSum
 {
     public class OptimizedSolution : ITwoSumSolution
     {
@@ -9,7 +9,7 @@
             {
                 if (addends.ContainsKey(nums[i]))
                     return [addends[nums[i]], i];
-                
+
                 addends[target - nums[i]] = i;
             }
             return [-1, -1];
