@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.12.35707.178 d17.12
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwoSum", "TwoSum\TwoSum.csproj", "{B4496652-8DC3-4351-8AFE-2A44A75F1443}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Runner", "TwoSum\Runner.csproj", "{B4496652-8DC3-4351-8AFE-2A44A75F1443}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCodeProblems", "LeetCodeProblems\LeetCodeProblems.csproj", "{5951521E-8B84-46DE-A75D-C47AD5D76E92}"
 EndProject

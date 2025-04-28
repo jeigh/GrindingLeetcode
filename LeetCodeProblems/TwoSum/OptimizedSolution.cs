@@ -1,4 +1,6 @@
-﻿namespace LeetCodeProblems.TwoSum
+﻿using TwoSum;
+
+namespace LeetCodeProblems.TwoSum
 {
     public class OptimizedSolution : ITwoSumSolution
     {
