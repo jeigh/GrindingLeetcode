@@ -1,4 +1,5 @@
 ﻿using LeetCodeProblems.AddTwo;
+using LeetCodeProblems.MedianOfTwoSortedArrays;
 
 namespace TwoSum
 {
@@ -6,9 +7,11 @@ namespace TwoSum
     {
         static void Main(string[] args)
         {
-            var solution = new LongestSubstringWithoutRepeatsUnoptimized();
+            var solution = new FindMedianSortedArraysOptimized();
 
-            var result = solution.LengthOfLongestSubstring("abcabcbb");
+            var result = solution.FindMedianSortedArrays(
+                [1, 3, 9, 12, 40, 50, 81, 91], 
+                [2, 7, 10, 22, 47, 82]);
 
 
             Console.WriteLine("debugger");
