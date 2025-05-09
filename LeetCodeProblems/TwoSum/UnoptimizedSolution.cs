@@ -15,7 +15,6 @@ namespace LeetCodeProblems.TwoSum
                     if (firstIndex == secondIndex) continue;
                     if (firstAddend + secondAddend == target) return [secondIndex, firstIndex];
 
-
                     secondIndex += 1;
                 }
 

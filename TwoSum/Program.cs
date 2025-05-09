@@ -1,4 +1,5 @@
 ﻿using LeetCodeProblems.AddTwo;
+using LeetCodeProblems.AnagramGroups;
 using LeetCodeProblems.MedianOfTwoSortedArrays;
 using LeetCodeProblems.ValidAnagram;
 
@@ -8,11 +9,11 @@ namespace TwoSum
     {
         static void Main(string[] args)
         {
-            var solution = new FindMedianSortedArraysOptimized();
+            
 
-            var unit = new ValidAnagram();
+            var unit = new GroupAnagramsSolution();
 
-            var result = unit.IsAnagram("jar", "jam");
+            var result = unit.GroupAnagrams(new string[] { "act", "pots", "tops", "cat", "stop", "hat" });
 
             Console.WriteLine("debugger");
 
