@@ -35,7 +35,6 @@ namespace LeetCodeProblems.AnagramGroups
                 result.Add(values);
             }
             return result;
-
         }
     }
 }
