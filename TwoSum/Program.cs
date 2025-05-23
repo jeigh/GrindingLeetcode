@@ -1,9 +1,4 @@
-﻿using LeetCodeProblems.AddTwo;
-using LeetCodeProblems.AnagramGroups;
-using LeetCodeProblems.IsValidSudoku;
-using LeetCodeProblems.MedianOfTwoSortedArrays;
-using LeetCodeProblems.ProductExceptSelf;
-using LeetCodeProblems.ValidAnagram;
+﻿using LeetCodeProblems.FirstAttempts;
 
 namespace TwoSum
 {
@@ -11,20 +6,10 @@ namespace TwoSum
     {
         static void Main(string[] args)
         {
-            char[][] board = [
-                ['1', '2', '.', '.', '3', '.', '.', '.', '.'],
-                ['4', '.', '.', '5', '.', '.', '.', '.', '.'],
-                ['.', '9', '8', '.', '.', '.', '.', '.', '3'],
-                ['5', '.', '.', '.', '6', '.', '.', '.', '4'],
-                ['.', '.', '.', '8', '.', '3', '.', '.', '5'],
-                ['7', '.', '.', '.', '2', '.', '.', '.', '6'],
-                ['.', '.', '.', '.', '.', '.', '2', '.', '.'],
-                ['.', '.', '.', '4', '1', '9', '.', '.', '8'],
-                ['.', '.', '.', '.', '8', '.', '.', '7', '9']
-            ];
 
-            var unit = new IsValidSudokuSolution();
-            unit.IsValidSudoku(board);
+            var nums = new int[] {2, 20, 4, 10, 3, 4, 5};
+            var unit = new LargestConsecutiveSolution();
+            var result = unit.LongestConsecutive(nums);
 
 
             Console.WriteLine("debugger");
