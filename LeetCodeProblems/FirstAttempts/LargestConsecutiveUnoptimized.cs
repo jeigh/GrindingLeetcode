@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LeetCodeProblems.FirstAttempts
 {
-    public class LargestConsecutiveSolution
+    public class LargestConsecutiveUnoptimized
     {
         // after misinterpreting the problem and writing a solution that did not target the test cases, I fell back on this hand-crafted solution
         // time complexity: O(n log n) due to sorting
