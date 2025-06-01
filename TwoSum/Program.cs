@@ -7,9 +7,8 @@ namespace TwoSum
         static void Main(string[] args)
         {
 
-            var nums = new int[] {2, 20, 4, 10, 3, 4, 5};
-            var unit = new LargestConsecutiveUnoptimized();
-            var result = unit.LongestConsecutive(nums);
+            var unit = new IsPalindromeSolution();
+            unit.IsPalindrome("Was it a car or a cat I saw?");
 
 
             Console.WriteLine("debugger");
