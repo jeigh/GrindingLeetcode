@@ -7,9 +7,9 @@ namespace TwoSum
         static void Main(string[] args)
         {
 
-            var unit = new TrappingRainWater();
-            List<int> input = [4, 2, 0, 3, 2, 5];
-            var result = unit.Trap(input.ToArray());
+            var unit = new LongestSubstringWithoutRepeats();
+            string input = "abcabcbb";
+            var result = unit.LengthOfLongestSubstringSlidingWindow(input);
             Console.WriteLine(result);
 
             Console.WriteLine("debugger");

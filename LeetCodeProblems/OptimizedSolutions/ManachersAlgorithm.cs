@@ -4,7 +4,7 @@ namespace LeetCodeProblems.OptimizedSolutions
 {
     public class ManachersAlgorithm : ILongestPalindrome
     {
-        // I didn't come up with this solution...    but it is the fastest solution and is apparently well known enought to have its own name
+        // I didn't come up with this solution...    but it is the fastest solution and is apparently well known enough to have its own name
         // O(n) time complexity, O(n) space complexity
         // https://en.wikipedia.org/wiki/Longest_palindromic_substring#Manacher's_algorithm
 
