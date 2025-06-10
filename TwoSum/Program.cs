@@ -11,7 +11,7 @@ namespace TwoSum
 
             var s = "ABAB";
             var k = 2;
-            var result = unit.CharacterReplacementBruteForce(s, k);
+            var result = unit.CharacterReplacementSlidingWindow(s, k);
             
             
             Console.WriteLine(result);
