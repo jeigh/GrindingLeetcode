@@ -7,11 +7,11 @@ namespace TwoSum
         static void Main(string[] args)
         {
 
-            var unit = new LongestRepeatingCharacterReplacementSolution();
+            var unit = new PermutationInString();
 
-            var s = "ABAB";
-            var k = 2;
-            var result = unit.CharacterReplacementSlidingWindow(s, k);
+            var s2 = "dcda";
+            var s1 = "adc";
+            var result = unit.CheckInclusionSlidingWindow(s1, s2);
             
             
             Console.WriteLine(result);
