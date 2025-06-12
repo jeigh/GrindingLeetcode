@@ -66,20 +66,18 @@ namespace LeetCodeProblems.FirstAttempts
 
             while (right < s2.Length + 1)
             {
-                // there's probably a faster way to determine equality
                 if (DictionariesAreEqual(s1Counts, s2Counts)) return true;
-
 
                 if (left + windowSize == s2.Length) break;
 
                 right++;
                 left++;
                 
-                var removable = s2[left - 1];
-                var addable = s2[right - 1];
+                var charLeavingWindow = s2[left - 1];
+                var charEnteringWindow = s2[right - 1];
 
-                s2Counts[removable]--;
-                s2Counts[addable]++;
+                s2Counts[charLeavingWindow]--;
+                s2Counts[charEnteringWindow]++;
             }
             return false;
         }
