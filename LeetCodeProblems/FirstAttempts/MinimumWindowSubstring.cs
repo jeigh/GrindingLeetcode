@@ -86,6 +86,52 @@
         }
 
 
+        // This is harder for me to follow, but its complexities are in range
+        // time: O(m+n), space: O(n)
+        public string MinWindowOptimized(string s, string t)
+        {
+            if (t == "") return "";
+            
+            Dictionary<char, int> windowHashmap = new Dictionary<char, int>();
 
+            var targetHashmap = InitializeHashmapFromString(t);
+
+            int satisfiedUniqueCharacters = 0;
+            int neededUniqueCharacters = targetHashmap.Count;
+            var minIndex = -1;
+            
+            int? resLen = null;
+            int left = 0;
+
+            for (int right = 0; right < s.Length; right++)
+            {
+                char newChar = s[right];
+                if (windowHashmap.ContainsKey(newChar)) windowHashmap[newChar]++;
+                else windowHashmap[newChar] = 1;
+
+                if (targetHashmap.ContainsKey(newChar) && windowHashmap[newChar] == targetHashmap[newChar])
+                    satisfiedUniqueCharacters++;
+
+                while (satisfiedUniqueCharacters == neededUniqueCharacters)
+                {
+                    if (!resLen.HasValue || (right + 1) < resLen.Value + left)
+                    {
+                        resLen = right - left + 1;
+                        minIndex = left;
+                    }
+
+                    char leftChar = s[left];
+                    windowHashmap[leftChar]--;
+                    
+                    if (targetHashmap.ContainsKey(leftChar) && windowHashmap[leftChar] < targetHashmap[leftChar]) 
+                        satisfiedUniqueCharacters--;
+
+                    left++;
+                }
+            }
+
+            if (resLen.HasValue) return s.Substring(minIndex, resLen.Value);
+            return string.Empty;            
+        }
     }
 }
