@@ -32,6 +32,11 @@ namespace LeetCodeProblems.FirstAttempts
             return maxValues.ToArray();
         }
 
+
+        // i created a seperate md file explaining how this method functions. 
+        // time complexity: O(n)
+        // space complexity: O(n)
+
         public int[] MaxSlidingWindowWithLinkedList(int[] nums, int k)
         {
 
@@ -43,10 +48,10 @@ namespace LeetCodeProblems.FirstAttempts
 
             while (rightEdgeOfWindow < nums.Length)
             {
-                var lastIsSmallerThanRightEdge = indexes.Count > 0 && nums[indexes.Last.Value] < nums[rightEdgeOfWindow];
+                var lastIsSmallerThanRightEdge = indexes.Count > 0 && nums[indexes.Last!.Value] < nums[rightEdgeOfWindow];
                 while (lastIsSmallerThanRightEdge)
                 {
-                    Console.WriteLine($"Removing Last (value:{nums[indexes.Last.Value]}, index:{indexes.Last.Value}) because Last Index (value:{nums[indexes.Last.Value]}, index {indexes.Last.Value}), is Smaller than Right Edge (value: {nums[rightEdgeOfWindow]}, index {rightEdgeOfWindow})..");
+                    Console.WriteLine($"Removing Last (value:{nums[indexes.Last!.Value]}, index:{indexes.Last.Value}) because Last Index (value:{nums[indexes.Last.Value]}, index {indexes.Last.Value}), is Smaller than Right Edge (value: {nums[rightEdgeOfWindow]}, index {rightEdgeOfWindow})..");
                     indexes.RemoveLast();                    
                     lastIsSmallerThanRightEdge = indexes.Count > 0 && nums[indexes.Last.Value] < nums[rightEdgeOfWindow];
                 }
@@ -54,7 +59,7 @@ namespace LeetCodeProblems.FirstAttempts
                 Console.WriteLine($"Adding {nums[rightEdgeOfWindow]}, whose index is {rightEdgeOfWindow}.");
                 indexes.AddLast(rightEdgeOfWindow);
 
-                var isOutOfWindow = leftEdgeOfWindow > indexes.First.Value;
+                var isOutOfWindow = indexes.First!.Value < leftEdgeOfWindow;
                 if (isOutOfWindow)
                 {
                     Console.WriteLine($"We are out of the window.  Removing leftmost, whose value is {nums[indexes.First.Value]} and index is {indexes.First.Value}");
