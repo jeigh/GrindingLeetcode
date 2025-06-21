@@ -7,13 +7,17 @@ namespace TwoSum
         static void Main(string[] args)
         {
 
-            var unit = new MinimumWindowSubstring();
+            var unit = new MaxSlidingWindowSolution();
 
-            var s = "ab";
-            var t = "a";
-            var result = unit.MinWindowOptimized(s, t);
-            
-            
+
+            int[] nums = [1, 3, -1, -3, 5, 3, 6, 7];
+
+            var k = 3;
+
+            var result = unit.MaxSlidingWindowWithLinkedList(nums, k);
+
+
+
             Console.WriteLine(result);
 
             Console.WriteLine("debugger");
