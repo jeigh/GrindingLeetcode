@@ -7,14 +7,15 @@ namespace TwoSum
         static void Main(string[] args)
         {
 
-            var unit = new MaxSlidingWindowSolution();
+            var unit = new ReversePolishNotationSolution();
 
 
-            int[] nums = [1, 3, -1, -3, 5, 3, 6, 7];
+            string[] tokens = ["2", "1", "+", "3", "*"];
 
-            var k = 3;
 
-            var result = unit.MaxSlidingWindowWithLinkedList(nums, k);
+
+
+            var result = unit.EvalRPN(tokens);
 
 
 
