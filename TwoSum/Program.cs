@@ -7,15 +7,21 @@ namespace TwoSum
         static void Main(string[] args)
         {
 
-            var unit = new DailyTemperaturesSolution();
+            var unit = new CarFleetSolution();
 
 
-            int[] temperatures = [30, 38, 30, 36, 35, 40, 28];
+            var target = 12;
+            int[] position = [10, 8, 0, 5, 3];
+            int[] speed = [2, 4, 1, 1, 3];
+
+            target = 10;
+            position = [6, 8];
+            speed = [3, 2];
 
 
 
 
-            var result = unit.DailyTemperatures(temperatures);
+            var result = unit.CarFleet(target, position, speed);
 
 
 
