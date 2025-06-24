@@ -2,7 +2,7 @@
 
 namespace LeetCodeProblems.OptimizedSolutions
 {
-    public class ManachersAlgorithm : ILongestPalindrome
+    public class ManachersAlgorithm 
     {
         // I didn't come up with this solution...    but it is the fastest solution and is apparently well known enough to have its own name
         // O(n) time complexity, O(n) space complexity

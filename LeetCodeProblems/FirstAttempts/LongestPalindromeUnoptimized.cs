@@ -3,7 +3,7 @@
 namespace LeetCodeProblems.FirstAttempts
 {
 
-    public class LongestPalindromeUnoptimized : ILongestPalindrome
+    public class LongestPalindromeUnoptimized 
     {
         /// beats 19.08 on leetcode;   I like the readability of this, dispite it not being the fastest.
 

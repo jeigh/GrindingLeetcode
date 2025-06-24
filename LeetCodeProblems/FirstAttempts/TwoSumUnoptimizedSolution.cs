@@ -2,7 +2,7 @@
 
 namespace LeetCodeProblems.FirstAttempts
 {
-    public class TwoSumUnoptimizedSolution : ITwoSumSolution
+    public class TwoSumUnoptimizedSolution 
     {
         public int[] TwoSum(int[] nums, int target)
         {
