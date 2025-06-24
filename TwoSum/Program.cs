@@ -7,15 +7,15 @@ namespace TwoSum
         static void Main(string[] args)
         {
 
-            var unit = new ReversePolishNotationSolution();
+            var unit = new DailyTemperaturesSolution();
 
 
-            string[] tokens = ["2", "1", "+", "3", "*"];
+            int[] temperatures = [30, 38, 30, 36, 35, 40, 28];
 
 
 
 
-            var result = unit.EvalRPN(tokens);
+            var result = unit.DailyTemperatures(temperatures);
 
 
 
