@@ -7,21 +7,16 @@ namespace TwoSum
         static void Main(string[] args)
         {
 
-            var unit = new CarFleetSolution();
-
-
-            var target = 12;
-            int[] position = [10, 8, 0, 5, 3];
-            int[] speed = [2, 4, 1, 1, 3];
-
-            target = 10;
-            position = [6, 8];
-            speed = [3, 2];
+            var unit = new SearchSolution();
 
 
 
+            int[] nums = [-1, 0, 2, 4, 6, 8];
+            var target = 4;
 
-            var result = unit.CarFleet(target, position, speed);
+
+
+            var result = unit.Search(nums, target);
 
 
 
