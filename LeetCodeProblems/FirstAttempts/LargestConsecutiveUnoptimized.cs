@@ -11,8 +11,6 @@ namespace LeetCodeProblems.FirstAttempts
         // after misinterpreting the problem and writing a solution that did not target the test cases, I fell back on this hand-crafted solution
         // time complexity: O(n log n) due to sorting
         // space complexity: O(n) due to the use of a list to store the sorted values
-
-
         public int LongestConsecutive(int[] nums)
         {
             var sorted = nums.Distinct().OrderBy(x => x).ToList();
