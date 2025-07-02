@@ -1,4 +1,4 @@
-﻿using LeetCodeProblems.FirstAttempts;
+﻿using LeetCodeProblems;
 using LeetCodeProblems.Shared;
 
 namespace TwoSum
