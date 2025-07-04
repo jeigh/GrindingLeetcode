@@ -1,6 +1,6 @@
 ﻿namespace LeetCodeProblems
 {
-    public class KthLargest
+    public class KthLargestUsingList
     {
         // this was my first stab at this solution, with a slightly less ideal performance.
         // space: O(n), time: O(n^2)
@@ -8,7 +8,7 @@
         private List<int> items = new List<int>();
         private readonly int _k;
 
-        public KthLargest(int k, int[] nums)
+        public KthLargestUsingList(int k, int[] nums)
         {
             this._k = k;
             foreach(var item in nums)
