@@ -1,5 +1,6 @@
 ﻿using LeetCodeProblems;
 using LeetCodeProblems.Shared;
+using System.Diagnostics;
 
 namespace TwoSum
 {
@@ -8,17 +9,11 @@ namespace TwoSum
         static void Main(string[] args)
         {
 
-            var unit = new DiameterOfBinaryTreeSolution();
+            var unit = new NonCyclicalNumbersSolution();
 
+            var result = unit.IsHappy(19);
 
-            int?[] input = [4, -7, -3, null, null, -9, -3, 9, -7, -4, null, 6, null, -6, -6, null, null, 0, 6, 5, null, 9, null, null, -1, -4, null, null, null, -2];
-            TreeNode root = ToBinaryTree(input);
-
-            var result = unit.DiameterOfBinaryTree(root); 
-
-            Console.WriteLine(result);
-
-            Console.WriteLine("debugger");
+            Console.Write(result);
 
         }
 
