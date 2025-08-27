@@ -9,9 +9,9 @@ namespace TwoSum
         static void Main(string[] args)
         {
 
-            var unit = new NonCyclicalNumbersSolution();
+            var unit = new KokoEatingBananas();
 
-            var result = unit.IsHappy(19);
+            var result = unit.MinEatingSpeed([1, 4, 3, 2], 9);
 
             Console.Write(result);
 
