@@ -2,6 +2,7 @@
 
 namespace LeetCodeProblems
 {
+
     //time: O(m+n) where m and n are the number of rows and cols respectively
     //space: O(1) 
     public class SearchMatrixSolution
@@ -13,7 +14,6 @@ namespace LeetCodeProblems
             int cols = matrix[0].Length;
             if (cols == 0) return false;
 
-            // Start from top-right corner
             int row = 0;
             int col = cols - 1;
 
@@ -22,9 +22,9 @@ namespace LeetCodeProblems
                 if (matrix[row][col] == target)
                     return true;
                 else if (matrix[row][col] > target)
-                    col--; // Move left
+                    col--; 
                 else
-                    row++; // Move down
+                    row++; 
             }
 
             return false;
