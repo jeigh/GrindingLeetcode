@@ -8,10 +8,8 @@ namespace TwoSum
     {
         static void Main(string[] args)
         {
-
-            var unit = new KokoEatingBananas();
-
-            var result = unit.MinEatingSpeed([1, 4, 3, 2], 9);
+            var unit = new PermutationInStringSolution();
+            var result = unit.CheckInclusion("abc", "dcda");
 
             Console.Write(result);
 
