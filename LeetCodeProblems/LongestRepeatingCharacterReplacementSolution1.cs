@@ -1,4 +1,6 @@
-﻿namespace LeetCodeProblems
+﻿using System.Runtime.InteropServices;
+
+namespace LeetCodeProblems
 {
     public class PermutationInStringSolution
     {
@@ -37,24 +39,34 @@
             return false;
         }
 
-        // this is the optimized solution o(n) time complexity and O(1) space complexity
+        // this is the pseudo-optimized solution o(n) time complexity and O(1) space complexity
+        // most online examples make the count arrays start at 'a', and then subtract from 'a' throughout the logic
+        // but I feel that doing so, while making it slightly less storage intense, limits readability.
+        // this solution seams to be a reasonable comprimise between the two
         public bool CheckInclusionSlidingWindow(string s1, string s2)
         {
+            var indexDomainSize = 26 + 'a';
             if (s1.Length > s2.Length) return false;
 
-            int[] s1Count = new int[26];
-            int[] s2Count = new int[26];
+            int[] s1Count = new int[indexDomainSize];
+            int[] s2Count = new int[indexDomainSize];
 
             for (int i = 0; i < s1.Length; i++)
             {
-                s1Count[s1[i] - 'a']++;
-                s2Count[s2[i] - 'a']++;
+                char index = s1[i];
+                s1Count[index]++;
+
+                index = s2[i]; 
+                s2Count[index]++;
             }
+
+            Func<int, bool> MeetsIncrementCriteria = 
+                i => s1Count[i] == s2Count[i];
 
             int matches = 0;
             for (int i = 0; i < 26; i++)
             {
-                if (s1Count[i] == s2Count[i]) matches++;
+                if (MeetsIncrementCriteria(i)) matches++;
             }
 
             int windowStart = 0;
@@ -62,16 +74,16 @@
             {
                 if (matches == 26) return true;
 
-                int index = s2[windowEnd] - 'a';
+                int index = s2[windowEnd];
                 s2Count[index]++;
 
-                if (s1Count[index] == s2Count[index]) matches++;
+                if (MeetsIncrementCriteria(index)) matches++;
                 else if (s1Count[index] + 1 == s2Count[index]) matches--;                
 
-                index = s2[windowStart] - 'a';
+                index = s2[windowStart];
                 s2Count[index]--;
                 
-                if (s1Count[index] == s2Count[index]) matches++;
+                if (MeetsIncrementCriteria(index)) matches++;
                 else if (s1Count[index] - 1 == s2Count[index]) matches--;
                 
                 windowStart++;
@@ -79,6 +91,7 @@
 
             return matches == 26;
         }
+
 
         private bool IsPermutationOf(string sourceString, int windowSize, int leftOffset, Dictionary<char, int> forThat)
         {
