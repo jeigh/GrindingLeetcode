@@ -9,7 +9,7 @@ namespace TwoSum
         static void Main(string[] args)
         {
             var unit = new PermutationInStringSolution();
-            var result = unit.CheckInclusion("abc", "dcda");
+            var result = unit.CheckInclusionSlidingWindow("abc", "dcda");
 
             Console.Write(result);
 

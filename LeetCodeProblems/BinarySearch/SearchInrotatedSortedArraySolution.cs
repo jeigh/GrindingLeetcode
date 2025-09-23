@@ -1,4 +1,4 @@
-﻿namespace LeetCodeProblems
+﻿namespace LeetCodeProblems.BinarySearch
 {
     public class SearchInRotatedSortedArraySolution
     {

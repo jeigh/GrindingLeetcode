@@ -1,4 +1,4 @@
-﻿using LeetCodeProblems;
+﻿using LeetCodeProblems.BinarySearch;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace GrindingLeetCode.UnitTests
