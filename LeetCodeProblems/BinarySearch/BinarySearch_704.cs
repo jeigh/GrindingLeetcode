@@ -1,13 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace LeetCodeProblems.BinarySearch
+﻿namespace LeetCodeProblems.BinarySearch
 {
+
     public class BinarySearch_704
     {
+        // time complexity O(log n) (Binary Search)
         public int Search(int[] nums, int target)
         {
             if (nums == null || nums.Length == 0)
