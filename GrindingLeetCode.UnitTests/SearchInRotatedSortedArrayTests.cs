@@ -6,12 +6,12 @@ namespace GrindingLeetCode.UnitTests
     [TestClass]
     public class SearchInRotatedSortedArrayTests
     {
-        private SearchInRotatedSortedArraySolution _solution;
+        private SearchInRotatedSortedArraySolution_33 _solution;
 
         [TestInitialize]
         public void Initialize()
         {
-            _solution = new SearchInRotatedSortedArraySolution();
+            _solution = new SearchInRotatedSortedArraySolution_33();
         }
 
         [TestMethod]
