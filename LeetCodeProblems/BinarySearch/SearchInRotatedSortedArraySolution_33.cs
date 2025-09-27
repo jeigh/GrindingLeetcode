@@ -1,6 +1,6 @@
 ﻿namespace LeetCodeProblems.BinarySearch
 {
-    public class SearchInRotatedSortedArraySolution
+    public class SearchInRotatedSortedArraySolution_33
     {
         public int Search(int[] nums, int target)
         {
