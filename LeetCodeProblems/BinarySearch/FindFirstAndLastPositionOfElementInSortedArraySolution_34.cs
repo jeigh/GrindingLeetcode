@@ -1,6 +1,4 @@
-﻿using System.Security.AccessControl;
-using System.Security.Cryptography;
-
+﻿
 namespace LeetCodeProblems.BinarySearch
 {
     public class FindFirstAndLastPositionOfElementInSortedArraySolution_34
@@ -12,7 +10,6 @@ namespace LeetCodeProblems.BinarySearch
 
             return [maxval, minval];
         }
-
 
         public int DoBinarySearch(int[] nums, int target, bool leftBias)
         {
