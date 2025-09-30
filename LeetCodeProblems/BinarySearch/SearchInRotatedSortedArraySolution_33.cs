@@ -36,34 +36,34 @@ namespace LeetCodeProblems.BinarySearch
 
                 
 
-                // Condition 1: Left is sorted, target is greater than midValue - search right
+                // Condition 1: Left is sorted, target is greater than midValue
                 // we want a value between midvalue and pivot
                 if (midValueIsLeftOfPivot && targetGtMidValue)
                     moveLeftToNext();
 
-                // Condition 2: Left is sorted, target is less than leftValue - search right
+                // Condition 2: Left is sorted, target is less than leftValue
                 // we want a value to the right of pivot
                 if (midValueIsLeftOfPivot && targetLtLeftValue)
                     moveLeftToNext();
 
-                // Condition 3: Left is sorted, target is between leftValue and midValue - search left
+                // Condition 3: Left is sorted, target is between leftValue and midValue
                 // we want a value between left and mid
                 if (midValueIsLeftOfPivot && targetGteLeftValue && targetLTMidValue)
                     moveRightToPrev();
 
                 
 
-                // Condition 4: Right is sorted, target is less than midValue, target is less than leftValue - search left
+                // Condition 4: Right is sorted, target is less than midValue, target is less than leftValue
                 // we want a value between pivot and midvalue
                 if (midValueIsRightOfPivot && targetLTMidValue && targetLtLeftValue)
                     moveRightToPrev();
 
-                // Condition 6: Right is sorted, target is greater than rightValue - search left
+                // Condition 6: Right is sorted, target is greater than rightValue
                 // we want a value between pivot and midvalue
                 if (midValueIsRightOfPivot && targetGtRightValue)
                     moveRightToPrev();
 
-                // Condition 7: Right is sorted, target is between midValue and rightValue - search right
+                // Condition 7: Right is sorted, target is between midValue and rightValue
                 // we want a value between midvalue and right
                 if (midValueIsRightOfPivot && targetGteMidValue && targetLteRightValue)
                     moveLeftToNext();
