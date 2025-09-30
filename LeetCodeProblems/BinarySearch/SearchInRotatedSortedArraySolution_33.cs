@@ -1,6 +1,4 @@
-﻿using System.ComponentModel.DataAnnotations;
-
-namespace LeetCodeProblems.BinarySearch
+﻿namespace LeetCodeProblems.BinarySearch
 {
     public class SearchInRotatedSortedArraySolution_33
     {
@@ -36,7 +34,7 @@ namespace LeetCodeProblems.BinarySearch
 
                 
 
-                // Condition 1: Left is sorted, target is greater than midValue
+                // Condition 1: Left is sorted, target is greater than midValue - search right
                 // we want a value between midvalue and pivot
                 if (midValueIsLeftOfPivot && targetGtMidValue)
                     moveLeftToNext();
