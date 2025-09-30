@@ -125,5 +125,21 @@ namespace GrindingLeetCode.UnitTests
             // Assert
             Assert.AreEqual(5, result);
         }
+
+        [TestMethod]
+        public void Search_RotatedOnce_FindsElement()
+        {
+            // Arrange - this is essentially a non-rotated array
+            int[] nums = { 5, 1, 2, 3, 4 };
+            int target = 1;
+
+            // Act
+            int result = _solution.Search(nums, target);
+
+            // Assert
+            Assert.AreEqual(1, result);
+        }
+
+
     }
 }
