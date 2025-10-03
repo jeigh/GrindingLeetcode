@@ -1,8 +1,7 @@
-﻿namespace LeetCodeProblems
+﻿namespace LeetCodeProblems.BinarySearch
 {
-    public class KokoEatingBananas
+    public class KokoEatingBananasSolution_875
     {
-
         public int MinEatingSpeedUsingBinarySearch(int[] piles, int h)
         {
             int leftPointer = 1;
