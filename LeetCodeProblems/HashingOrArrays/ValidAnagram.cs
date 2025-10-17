@@ -1,13 +1,6 @@
-﻿using LeetCodeProblems.Shared;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace LeetCodeProblems
+﻿namespace LeetCodeProblems.HashingOrArrays
 {
-    public class ValidAnagram 
+    public class ValidAnagram_Bespoke 
     {
         // this was my first attempt and is also reasonably efficient
         // time complexity: O(n+m) where n and m are the lengths of the strings
