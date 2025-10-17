@@ -1,17 +1,10 @@
-﻿using LeetCodeProblems.Shared;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace LeetCodeProblems
+﻿namespace LeetCodeProblems.HashingOrArrays
 {
 
-    internal class ContainsDuplicateUnoptimized 
+    public class ContainsDuplicateSolution_217
     {
         // I generated this one on the first attempt.  Time: O(n) Space: O(n)
-        public bool hasDuplicateBruteForce(int[] nums)
+        private bool hasDuplicateBruteForce(int[] nums)
         {
             HashSet<int> founds = new HashSet<int>();
 
@@ -23,8 +16,6 @@ namespace LeetCodeProblems
             return false;
         }
 
-        // this one I looked up;   Faster because it sorts the array first.
-        // Time: O(n log n) Space: O(1)
 
         public bool hasDuplicate(int[] nums)
         {
