@@ -1,8 +1,8 @@
 ﻿using LeetCodeProblems.Shared;
 
-namespace LeetCodeProblems
+namespace LeetCodeProblems.HashingOrArrays
 {
-    public class TwoSumSolution 
+    public class TwoSumSolution_1 
     {
         public int[] TwoSum(int[] nums, int target)
         {
