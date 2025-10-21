@@ -2,7 +2,6 @@
 {
     public class MyHashSetSolution_705
     {
-
         public class MyHashSet
         {
 
