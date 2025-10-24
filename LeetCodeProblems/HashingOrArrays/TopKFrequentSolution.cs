@@ -1,13 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace LeetCodeProblems
+﻿namespace LeetCodeProblems
 {
 
-    public class TopKFrequentSolution
+    public class TopKFrequentSolution_347
     {
         // this was my first attempt without looking at the solution
         // time complexity: O(n + u log u), which simplifies to O(n log n) in the worst case when all elements are unique.
