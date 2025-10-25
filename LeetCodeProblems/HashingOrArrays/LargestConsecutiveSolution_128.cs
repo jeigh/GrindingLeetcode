@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace LeetCodeProblems
+﻿namespace LeetCodeProblems.HashingOrArrays
 {
-    public class LargestConsecutiveUnoptimized
+    public class LargestConsecutiveSolution_128
     {
         // after misinterpreting the problem and writing a solution that did not target the test cases, I fell back on this hand-crafted solution
         // time complexity: O(n log n) due to sorting
