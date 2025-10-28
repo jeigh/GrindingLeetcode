@@ -2,15 +2,16 @@ using LeetCodeProblems.HashingOrArrays;
 
 namespace GrindingLeetCode.UnitTests
 {
+
     [TestClass]
-    public class TwoSumSolution_1_Tests
+    public class TwoSumHashMapSolution_1_Tests
     {
-        private TwoSumSolution_1 _solution;
+        private ITwoSum _solution;
 
         [TestInitialize]
         public void Initialize()
         {
-            _solution = new TwoSumSolution_1();
+            _solution = new TwoSumHashMapSolution_1();
         }
 
         [TestMethod]
@@ -72,7 +73,7 @@ namespace GrindingLeetCode.UnitTests
         {
             int[] nums = { 2, 7, 11, 15 };
             int target = 9;
-            int[] result = _solution.TwoSumHashMap(nums, target);
+            int[] result = _solution.TwoSum(nums, target);
             CollectionAssert.AreEquivalent(new[] { 0, 1 }, result);
         }
 
@@ -81,7 +82,7 @@ namespace GrindingLeetCode.UnitTests
         {
             int[] nums = { 3, 2, 4 };
             int target = 6;
-            int[] result = _solution.TwoSumHashMap(nums, target);
+            int[] result = _solution.TwoSum(nums, target);
             CollectionAssert.AreEquivalent(new[] { 1, 2 }, result);
         }
 
@@ -90,7 +91,7 @@ namespace GrindingLeetCode.UnitTests
         {
             int[] nums = { 1, 2, 3 };
             int target = 7;
-            int[] result = _solution.TwoSumHashMap(nums, target);
+            int[] result = _solution.TwoSum(nums, target);
             CollectionAssert.AreEqual(new[] { -1, -1 }, result);
         }
 
@@ -99,7 +100,7 @@ namespace GrindingLeetCode.UnitTests
         {
             int[] nums = { 3, 3 };
             int target = 6;
-            int[] result = _solution.TwoSumHashMap(nums, target);
+            int[] result = _solution.TwoSum(nums, target);
             CollectionAssert.AreEquivalent(new[] { 0, 1 }, result);
         }
 
@@ -108,7 +109,7 @@ namespace GrindingLeetCode.UnitTests
         {
             int[] nums = { 5 };
             int target = 10;
-            int[] result = _solution.TwoSumHashMap(nums, target);
+            int[] result = _solution.TwoSum(nums, target);
             CollectionAssert.AreEqual(new[] { -1, -1 }, result);
         }
 
@@ -117,7 +118,7 @@ namespace GrindingLeetCode.UnitTests
         {
             int[] nums = { };
             int target = 0;
-            int[] result = _solution.TwoSumHashMap(nums, target);
+            int[] result = _solution.TwoSum(nums, target);
             CollectionAssert.AreEqual(new[] { -1, -1 }, result);
         }
     }
