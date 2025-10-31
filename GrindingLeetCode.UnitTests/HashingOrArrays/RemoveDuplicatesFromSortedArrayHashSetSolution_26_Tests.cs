@@ -1,6 +1,6 @@
 using LeetCodeProblems.HashingOrArrays;
 
-namespace GrindingLeetCode.UnitTests
+namespace GrindingLeetCode.UnitTests.HashingOrArrays
 {
     [TestClass]
     public class RemoveDuplicatesFromSortedArrayHashSetSolution_26_Tests
