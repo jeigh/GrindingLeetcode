@@ -1,9 +1,11 @@
-using LeetCodeProblems;
 
-namespace GrindingLeetCode.UnitTests
+
+using LeetCodeProblems.Bespoke;
+
+namespace GrindingLeetCode.UnitTests.HashingOrArrays
 {
     [TestClass]
-    public class ThresSumSolution_15_Tests
+    public class ThreeSumBespokeSolution_15_Tests
     {
         private ThreeSumBespokeSolution_15 _solution;
 
