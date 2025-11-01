@@ -1,7 +1,7 @@
 ﻿using LeetCodeProblems.BinarySearch;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace GrindingLeetCode.UnitTests
+namespace GrindingLeetCode.UnitTests.BinarySearch
 {
     [TestClass]
     public class SqrtSolution_69_Tests
