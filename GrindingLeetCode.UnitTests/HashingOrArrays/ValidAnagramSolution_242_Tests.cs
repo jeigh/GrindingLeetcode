@@ -1,7 +1,7 @@
 using LeetCodeProblems.HashingOrArrays;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace GrindingLeetCode.UnitTests
+namespace GrindingLeetCode.UnitTests.HashingOrArrays
 {
     [TestClass]
     public class ValidAnagramSolution_242_Tests
