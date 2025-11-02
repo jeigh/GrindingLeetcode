@@ -1,6 +1,7 @@
 using LeetCodeProblems.HashingOrArrays;
+using LeetCodeProblems.Shared;
 
-namespace GrindingLeetCode.UnitTests
+namespace GrindingLeetCode.UnitTests.HashingOrArrays
 {
 
     [TestClass]
