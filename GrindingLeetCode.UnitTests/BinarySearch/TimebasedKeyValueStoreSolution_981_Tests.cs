@@ -2,17 +2,17 @@ using LeetCodeProblems.BinarySearch;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using static LeetCodeProblems.BinarySearch.TimebasedKeyValueStoreSolution_981;
 
-namespace GrindingLeetCode.UnitTests
+namespace GrindingLeetCode.UnitTests.BinarySearch
 {
     [TestClass]
     public class TimebasedKeyValueStoreSolution_981_Tests
     {
-        private TimebasedKeyValueStoreSolution_981.TimeMap _timeMap;
+        private TimeMap _timeMap;
 
         [TestInitialize]
         public void Initialize()
         {
-            _timeMap = new TimebasedKeyValueStoreSolution_981.TimeMap();
+            _timeMap = new TimeMap();
         }
 
         [TestMethod]
