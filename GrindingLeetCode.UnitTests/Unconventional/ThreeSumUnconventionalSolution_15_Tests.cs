@@ -1,18 +1,16 @@
+using LeetCodeProblems.Unconventional;
 
-
-using LeetCodeProblems.Bespoke;
-
-namespace GrindingLeetCode.UnitTests.HashingOrArrays
+namespace GrindingLeetCode.UnitTests.Unconventional
 {
     [TestClass]
-    public class ThreeSumBespokeSolution_15_Tests
+    public class ThreeSumUnconventionalSolution_15_Tests
     {
-        private ThreeSumBespokeSolution_15 _solution;
+        private ThreeSumUnconventionalSolution_15 _solution;
 
         [TestInitialize]
         public void Initialize()
         {
-            _solution = new ThreeSumBespokeSolution_15();
+            _solution = new ThreeSumUnconventionalSolution_15();
         }
 
         private static List<List<int>> NormalizeResult(IList<IList<int>> result)

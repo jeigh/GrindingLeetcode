@@ -1,13 +1,13 @@
 ﻿using System.Linq;
 
-namespace LeetCodeProblems.Bespoke
+namespace LeetCodeProblems.Unconventional
 {
     /// <summary>
     /// Given an integer array nums, return all the triplets[nums[i], nums[j], nums[k]] 
     /// such that i != j, i != k, and j != k, and nums[i] + nums[j] + nums[k] == 0.
     /// Notice that the solution set must not contain duplicate triplets.
     /// </summary>
-    public class ThreeSumBespokeSolution_15
+    public class ThreeSumUnconventionalSolution_15
     {
         // I started down the non-ideal solution to this problem and ended up with more code than I needed.
         // I ended up taking several hours to correct the mistakes that I made in my first attempt.
