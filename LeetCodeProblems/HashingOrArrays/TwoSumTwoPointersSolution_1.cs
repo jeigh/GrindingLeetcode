@@ -1,4 +1,6 @@
-﻿namespace LeetCodeProblems.HashingOrArrays
+﻿using LeetCodeProblems.Shared;
+
+namespace LeetCodeProblems.HashingOrArrays
 {
     public class TwoSumTwoPointersSolution_1 : ITwoSum 
     {
