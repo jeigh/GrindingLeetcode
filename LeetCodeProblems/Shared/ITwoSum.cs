@@ -1,4 +1,4 @@
-﻿namespace LeetCodeProblems.HashingOrArrays
+﻿namespace LeetCodeProblems.Shared
 {
     public interface ITwoSum
     {
