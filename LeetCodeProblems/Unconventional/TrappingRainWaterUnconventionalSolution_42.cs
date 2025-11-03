@@ -1,13 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Security.Cryptography;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace LeetCodeProblems
+﻿namespace LeetCodeProblems.Unconventional
 {
-    public class TrappingRainWater
+    /// <summary>
+    /// Given n non-negative integers representing an elevation map where the width of each bar is 1, compute how much water it can trap after raining.
+    /// </summary>
+    public class TrappingRainWaterUnconventionalSolution_42
     {
         // this was my first attempt after reading an explaination of how it should be done
         // time complexity: O(n), space complexity: O(n)
@@ -61,36 +57,5 @@ namespace LeetCodeProblems
         }
 
 
-        // this is the optimized solution.  It individually calculates the water level per index instead of constructing a dedicated array for both prefix and suffix.
-        // time complexity: O(n), space complexity: O(1)
-
-        public int TrapOptimized(int[] height)
-        {
-            if (height == null || height.Length == 0) return 0;
-
-            int left = 0;
-            int right = height.Length - 1;
-
-            int leftMax = height[left];
-            int rightMax = height[right];
-
-            int returnable = 0;
-            while (left < right)
-            {
-                if (leftMax < rightMax)
-                {
-                    left++;
-                    leftMax = Math.Max(leftMax, height[left]);
-                    returnable += leftMax - height[left];
-                }
-                else
-                {
-                    right--;
-                    rightMax = Math.Max(rightMax, height[right]);
-                    returnable += rightMax - height[right];
-                }
-            }
-            return returnable;
-        }
     }
 }
