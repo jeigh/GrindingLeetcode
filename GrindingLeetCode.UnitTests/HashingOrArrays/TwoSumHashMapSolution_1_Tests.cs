@@ -1,5 +1,5 @@
 using LeetCodeProblems.HashingOrArrays;
-using LeetCodeProblems.Shared;
+using LeetCodeProblems.Interfaces;
 
 namespace GrindingLeetCode.UnitTests.HashingOrArrays
 {

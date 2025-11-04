@@ -1,4 +1,4 @@
-using LeetCodeProblems.Shared;
+using LeetCodeProblems.Interfaces;
 using LeetCodeProblems.TwoPointers;
 
 namespace GrindingLeetCode.UnitTests.TwoPointers

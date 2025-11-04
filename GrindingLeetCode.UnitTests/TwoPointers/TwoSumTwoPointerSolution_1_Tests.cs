@@ -1,5 +1,5 @@
-using LeetCodeProblems.HashingOrArrays;
-using LeetCodeProblems.Shared;
+using LeetCodeProblems.CSharp.TwoPointers;
+using LeetCodeProblems.Interfaces;
 
 namespace GrindingLeetCode.UnitTests.TwoPointers
 {
