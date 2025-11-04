@@ -1,13 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Runtime.CompilerServices;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace LeetCodeProblems
+﻿namespace LeetCodeProblems.TwoPointers
 {
-    public class IsPalindromeSolution
+    public class ValidPalindromeSolution_125
     {
         // this was my first attempt.   Time Complexity: O(n), Space Complexity: O(1)
 
