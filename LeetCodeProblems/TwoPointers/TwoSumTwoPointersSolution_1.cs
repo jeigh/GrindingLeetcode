@@ -1,6 +1,6 @@
-﻿using LeetCodeProblems.Shared;
+﻿using LeetCodeProblems.Interfaces;
 
-namespace LeetCodeProblems.HashingOrArrays
+namespace LeetCodeProblems.CSharp.TwoPointers
 {
     public class TwoSumTwoPointersSolution_1 : ITwoSum 
     {

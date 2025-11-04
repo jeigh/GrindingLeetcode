@@ -1,4 +1,6 @@
-﻿namespace LeetCodeProblems.SlidingWindow
+﻿using LeetCodeProblems.Interfaces;
+
+namespace LeetCodeProblems.SlidingWindow
 {
     public class LongestRepeatingCharacterReplacementSlidingWindowSolution_424 : ILeetCode424
     {

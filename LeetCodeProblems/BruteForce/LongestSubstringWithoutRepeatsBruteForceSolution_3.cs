@@ -1,4 +1,4 @@
-﻿using LeetCodeProblems.Shared;
+﻿using LeetCodeProblems.Interfaces;
 using System.Text;
 
 namespace LeetCodeProblems.BruteForce

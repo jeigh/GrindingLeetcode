@@ -1,4 +1,4 @@
-﻿using LeetCodeProblems.Shared;
+﻿using LeetCodeProblems.Interfaces;
 
 namespace LeetCodeProblems.TwoPointers
 {
