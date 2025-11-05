@@ -1,12 +1,12 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace LeetCodeProblems.BinarySearch
+namespace LeetCodeProblems.Unfinished
 {
     public class MedianOfTwoSortedArraysSolution_4
     {
         public double FindMedianSortedArrays(int[] nums1, int[] nums2)
         {
-            // return to this when I understand it better
+            // todo: return to this when I understand it better
             return 0;
         }
     }
