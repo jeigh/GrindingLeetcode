@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
@@ -13,11 +13,17 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\LeetCodeProblems.VisualBasic\LeetCodeProblems.VisualBasic.vbproj" />
     <ProjectReference Include="..\LeetCodeProblems\LeetCodeProblems.CSharp.csproj" />
   </ItemGroup>
 
   <ItemGroup>
     <Using Include="Microsoft.VisualStudio.TestTools.UnitTesting" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="BruteForce\" />
+    <Folder Include="Dynamic\" />
   </ItemGroup>
 
 </Project>
