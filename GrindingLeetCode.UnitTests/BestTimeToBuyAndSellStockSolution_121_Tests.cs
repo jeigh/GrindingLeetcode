@@ -2,7 +2,7 @@ using LeetCodeProblems.BruteForce;
 using LeetCodeProblems.Dynamic;
 using LeetCodeProblems.Interfaces;
 using LeetCodeProblems.TwoPointers;
-using LeetCodeProblems.VisualBasic.HashingOrArrays;
+using LeetCodeProblems.VisualBasic.SlidingWindow;
 
 namespace GrindingLeetCode.UnitTests
 {

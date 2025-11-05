@@ -1,6 +1,6 @@
 Imports LeetCodeProblems.Interfaces
 
-Namespace HashingOrArrays
+Namespace SlidingWindow
     Public Class BestTimeToBuyAndSellStock_121
         Implements IBestTimeToBuyAndSellStock_121
 
