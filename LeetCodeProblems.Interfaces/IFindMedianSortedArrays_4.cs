@@ -1,0 +1,7 @@
+﻿namespace LeetCodeProblems.Interfaces
+{
+    public interface IFindMedianSortedArrays_4
+    {
+        public double FindMedianSortedArrays(int[] shorter, int[] longer);
+    }
+}
