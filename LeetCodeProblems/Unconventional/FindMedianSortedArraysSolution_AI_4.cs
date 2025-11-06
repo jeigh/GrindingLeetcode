@@ -1,43 +1,16 @@
-﻿using LeetCodeProblems.Shared;
-using System.Collections.Immutable;
-using System.Reflection.Metadata.Ecma335;
+﻿using LeetCodeProblems.Interfaces;
 
-namespace LeetCodeProblems
+namespace LeetCodeProblems.CSharp.Unconventional
 {
-
-    public class FindMedianSortedArraysUnoptimized 
+    public class FindMedianSortedArraysSolution_AI_4 : IFindMedianSortedArrays_4
     {
-        // leetcode stats: 15.4% in runtime, 6.02% in memory
-
-        public double FindMedianSortedArrays(int[] nums1, int[] nums2)
-        {
-            var combined = nums1.Concat(nums2).OrderBy(x => x).ToList();
-            double returnable = 0;
-            if (combined.Count % 2 == 0) 
-            { 
-                var upperIndex = combined.Count / 2;
-                var lowerIndex = upperIndex - 1;
-
-                var upperValue = combined[upperIndex];
-                var lowerValue = combined[lowerIndex];
-
-                returnable = (double)(upperValue + (double)lowerValue) / 2;
-                
-            }
-            else
-                returnable = combined[combined.Count / 2];
-            return returnable;
-        }
-
         // this runs in the top 100% on leetcode
         // sadly I couldn't come up with this solution myself -- I had to use github copilot
         // I did refactor it for readability
-
-
-        public double FindMedianSortedArraysOptimized(int[] shorter, int[] longer)
+        public double FindMedianSortedArrays(int[] shorter, int[] longer)
         {
 
-            if (shorter.Length > longer.Length) return FindMedianSortedArraysOptimized(longer, shorter);
+            if (shorter.Length > longer.Length) return FindMedianSortedArrays(longer, shorter);
 
             int shorterLength = shorter.Length;
             int longerLength = longer.Length;
@@ -83,6 +56,5 @@ namespace LeetCodeProblems
             else returnable = theIntegers[partition - 1];
             return returnable;
         }
-
     }
 }
