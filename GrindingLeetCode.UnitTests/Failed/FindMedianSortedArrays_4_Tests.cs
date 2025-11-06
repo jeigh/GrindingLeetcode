@@ -101,8 +101,8 @@ namespace GrindingLeetCode.UnitTests.Failed
             // Act
             double result = solution.FindMedianSortedArrays(nums1, nums2);
 
-            // Assert - merged is [1,2,3,4,5,6,8,10], median is 5
-            Assert.AreEqual(5.0, result, 0.00001);
+            // Assert - merged is [1,2,3,4,5,6,8,10], median is 4.5
+            Assert.AreEqual(4.5, result, 0.00001);
         }
 
         [TestMethod]
