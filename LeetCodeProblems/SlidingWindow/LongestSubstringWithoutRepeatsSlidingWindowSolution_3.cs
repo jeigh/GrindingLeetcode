@@ -1,8 +1,8 @@
-﻿using LeetCodeProblems.Interfaces;
+﻿using LeetCodeProblems.Interfaces.Medium;
 
 namespace LeetCodeProblems.SlidingWindow
 {
-    public class LongestSubstringWithoutRepeatsSlidingWindowSolution_3 : ILeetCode3
+    public class LongestSubstringWithoutRepeatsSlidingWindowSolution_3 : ILongestSubstringWithoutRepeatingCharacters_3
     {
         // I came up with this after reading a description of the optimal solution.
         // time complexity: O(n), space complexity O(m), where n is the length of s, and m is the maximum number of characters in the hashset.

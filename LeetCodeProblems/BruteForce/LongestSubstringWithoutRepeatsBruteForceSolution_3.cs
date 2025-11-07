@@ -1,9 +1,9 @@
-﻿using LeetCodeProblems.Interfaces;
+﻿using LeetCodeProblems.Interfaces.Medium;
 using System.Text;
 
 namespace LeetCodeProblems.BruteForce
 {
-    public class LongestSubstringWithoutRepeatsBruteForceSolution_3 : ILeetCode3
+    public class LongestSubstringWithoutRepeatsBruteForceSolution_3 : ILongestSubstringWithoutRepeatingCharacters_3
     {
         // this was my first attempt
         // time complexity: O(n^3), space complexity: O(n)

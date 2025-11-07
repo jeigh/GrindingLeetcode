@@ -1,8 +1,8 @@
-﻿using LeetCodeProblems.Interfaces;
+﻿using LeetCodeProblems.Interfaces.Medium;
 
 namespace LeetCodeProblems.HashingOrArrays
 {
-    public class LongestSubstringWithoutRepeatsHashSetSolution_3 : ILeetCode3
+    public class LongestSubstringWithoutRepeatsHashSetSolution_3 : ILongestSubstringWithoutRepeatingCharacters_3
     {
         // this is kinda the same solution, but with a HashMap instead of a HashSet.
         // I think it's more difficult to read
