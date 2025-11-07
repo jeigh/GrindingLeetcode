@@ -1,8 +1,8 @@
-﻿using LeetCodeProblems.Interfaces;
+﻿using LeetCodeProblems.Interfaces.Easy;
 
 namespace LeetCodeProblems.CSharp.TwoPointers
 {
-    public class TwoSumTwoPointersSolution_1 : ITwoSum 
+    public class TwoSumTwoPointersSolution_1 : ITwoSum_1 
     {
         public int[] TwoSum(int[] nums, int target)
         {

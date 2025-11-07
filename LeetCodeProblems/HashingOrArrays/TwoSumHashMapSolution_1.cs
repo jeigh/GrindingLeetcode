@@ -1,8 +1,8 @@
-﻿using LeetCodeProblems.Interfaces;
+﻿using LeetCodeProblems.Interfaces.Easy;
 
 namespace LeetCodeProblems.HashingOrArrays
 {
-    public class TwoSumHashMapSolution_1 : ITwoSum
+    public class TwoSumHashMapSolution_1 : ITwoSum_1
     {
         public int[] TwoSum(int[] nums, int target)
         {

@@ -1,12 +1,12 @@
 using LeetCodeProblems.CSharp.TwoPointers;
-using LeetCodeProblems.Interfaces;
+using LeetCodeProblems.Interfaces.Easy;
 
 namespace GrindingLeetCode.UnitTests.TwoPointers
 {
     [TestClass]
     public class TwoSumTwoPointerSolution_1_Tests
     {
-        private ITwoSum _solution;
+        private ITwoSum_1 _solution;
 
         [TestInitialize]
         public void Initialize()

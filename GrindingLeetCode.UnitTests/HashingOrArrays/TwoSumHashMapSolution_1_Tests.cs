@@ -1,5 +1,5 @@
 using LeetCodeProblems.HashingOrArrays;
-using LeetCodeProblems.Interfaces;
+using LeetCodeProblems.Interfaces.Easy;
 
 namespace GrindingLeetCode.UnitTests.HashingOrArrays
 {
@@ -7,7 +7,7 @@ namespace GrindingLeetCode.UnitTests.HashingOrArrays
     [TestClass]
     public class TwoSumHashMapSolution_1_Tests
     {
-        private ITwoSum _solution;
+        private ITwoSum_1 _solution;
 
         [TestInitialize]
         public void Initialize()
