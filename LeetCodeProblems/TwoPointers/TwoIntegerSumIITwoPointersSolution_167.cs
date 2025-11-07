@@ -1,4 +1,4 @@
-﻿using LeetCodeProblems.Interfaces;
+﻿using LeetCodeProblems.Interfaces.Medium;
 
 namespace LeetCodeProblems.TwoPointers
 {
@@ -8,7 +8,7 @@ namespace LeetCodeProblems.TwoPointers
     /// The tests are generated such that there is exactly one solution.You may not use the same element twice.
     /// Your solution must use only constant extra space.
     /// </summary>
-    public class TwoIntegerSumIITwoPointersSolution_167 : ITwoSum
+    public class TwoIntegerSumIITwoPointersSolution_167 : ITwoSumII_167
     {
 
         public int[] TwoSum(int[] numbers, int target)
