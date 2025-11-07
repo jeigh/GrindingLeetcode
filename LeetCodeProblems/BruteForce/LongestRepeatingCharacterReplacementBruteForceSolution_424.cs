@@ -1,13 +1,11 @@
-﻿using LeetCodeProblems.Interfaces   ;
+﻿using LeetCodeProblems.Interfaces.Medium;
 
 namespace LeetCodeProblems.BruteForce
 {
-
-
     // this is the brute force solution that I came up with after understanding the problem
     // i'm pretty sure this does what's expected, but runs too slowly when ran on large inputs.
     // time complexity: O(n^3) (because of the triple-nested loops),  space complexity: O(n)
-    public class LongestRepeatingCharacterReplacementBruteForceSolution_424 : ILeetCode424
+    public class LongestRepeatingCharacterReplacementBruteForceSolution_424 : ILongestRepeatingCharacterReplacement_424
     {
         public int CharacterReplacement(string s, int k)
         {

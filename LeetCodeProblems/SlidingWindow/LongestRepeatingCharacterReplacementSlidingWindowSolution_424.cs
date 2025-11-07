@@ -1,8 +1,8 @@
-﻿using LeetCodeProblems.Interfaces;
+﻿using LeetCodeProblems.Interfaces.Medium;
 
 namespace LeetCodeProblems.SlidingWindow
 {
-    public class LongestRepeatingCharacterReplacementSlidingWindowSolution_424 : ILeetCode424
+    public class LongestRepeatingCharacterReplacementSlidingWindowSolution_424 : ILongestRepeatingCharacterReplacement_424
     {
         // i had to go review someone else's solution to come up with this
         // time complexity: O(n*m) where n is the length of s, and m is the number of unique characters.
