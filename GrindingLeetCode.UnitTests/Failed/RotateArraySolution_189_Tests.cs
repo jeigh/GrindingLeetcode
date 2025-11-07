@@ -6,12 +6,12 @@ namespace GrindingLeetCode.UnitTests.Failed
     [TestClass]
     public class RotateArraySolution_189_Tests
     {
-        private RotateArrayBespokeSolution_189 _solution;
+        private RotateArrayTooSlowSolution_189 _solution;
 
         [TestInitialize]
         public void Initialize()
         {
-            _solution = new RotateArrayBespokeSolution_189();
+            _solution = new RotateArrayTooSlowSolution_189();
         }
 
         [TestMethod]

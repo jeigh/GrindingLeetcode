@@ -1,6 +1,6 @@
 ﻿namespace LeetCodeProblems.Failed
 {
-    public class RotateArrayBespokeSolution_189
+    public class RotateArrayTooSlowSolution_189
     {
         // Given an integer array nums, rotate the array to the right by k steps, where k is non-negative.
         // the intent here is to do it in-place with O(1) space
