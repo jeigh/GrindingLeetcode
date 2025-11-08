@@ -1,6 +1,6 @@
 using LeetCodeProblems.BruteForce;
 using LeetCodeProblems.Dynamic;
-using LeetCodeProblems.Interfaces;
+using LeetCodeProblems.Interfaces.Easy;
 using LeetCodeProblems.TwoPointers;
 using LeetCodeProblems.VisualBasic.SlidingWindow;
 

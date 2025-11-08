@@ -1,6 +1,8 @@
-﻿namespace LeetCodeProblems.Interfaces
-{
+﻿using System;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
+namespace LeetCodeProblems.Interfaces.Easy
+{
     /// <summary>
     /// You are given an array prices where prices[i] is the price of a given stock on the ith day.
     ///
@@ -8,9 +10,8 @@
     ///
     /// Return the maximum profit you can achieve from this transaction.If you cannot achieve any profit, return 0.
     /// </summary>
-    public interface ILeetCode121
+    public interface IBestTimeToBuyAndSellStock_121
     {
         public int MaxProfit(int[] prices);
     }
-
 }
