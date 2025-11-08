@@ -1,7 +1,7 @@
 using LeetCodeProblems.CSharp.BruteForce;
 using LeetCodeProblems.CSharp.Failed;
 using LeetCodeProblems.CSharp.Unconventional;
-using LeetCodeProblems.Interfaces;
+using LeetCodeProblems.Interfaces.Hard;
 
 namespace GrindingLeetCode.UnitTests.Failed
 {

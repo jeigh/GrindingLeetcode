@@ -1,4 +1,4 @@
-﻿namespace LeetCodeProblems.Interfaces
+﻿namespace LeetCodeProblems.Interfaces.Hard
 {
     public interface IFindMedianSortedArrays_4
     {

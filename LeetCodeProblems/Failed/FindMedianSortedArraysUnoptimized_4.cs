@@ -1,4 +1,4 @@
-﻿using LeetCodeProblems.Interfaces;
+﻿using LeetCodeProblems.Interfaces.Hard;
 
 namespace LeetCodeProblems.CSharp.Failed
 {

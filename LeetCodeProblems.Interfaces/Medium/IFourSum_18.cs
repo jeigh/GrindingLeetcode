@@ -1,4 +1,4 @@
-﻿namespace LeetCodeProblems.Interfaces
+﻿namespace LeetCodeProblems.Interfaces.Medium
 {
     /// <summary>
     /// Given an array nums of n integers, return an array of all the unique quadruplets [nums[a], nums[b], nums[c], nums[d]] such that:
@@ -9,7 +9,7 @@
     /// 
     /// You may return the answer in any order.
     /// </summary>
-    public interface IFourSum
+    public interface IFourSum_18
     {
         public IList<IList<int>> FourSum(int[] nums, int target);
     }
