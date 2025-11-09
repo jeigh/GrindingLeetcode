@@ -1,6 +1,7 @@
-Imports LeetCodeProblems.Interfaces
+Imports LeetCodeProblems.Interfaces.Easy
 
 Namespace SlidingWindow
+
     Public Class BestTimeToBuyAndSellStock_121
         Implements IBestTimeToBuyAndSellStock_121
 
@@ -23,6 +24,8 @@ Namespace SlidingWindow
             Return retval
         End Function
     End Class
+
+
 
 End Namespace
 
