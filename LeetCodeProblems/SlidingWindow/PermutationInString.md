@@ -62,9 +62,9 @@ flowchart TD
     style ReturnTrue2 fill:#98FB98
     style ReturnFalse1 fill:#FFA07A
     style ReturnFalse2 fill:#FFA07A
-```mermaid
-
 ```
+
+```mermaid
 sequenceDiagram
     participant Main as CheckInclusion
     participant Init as InitCounts
@@ -119,9 +119,9 @@ sequenceDiagram
     
     Main->>Main: Final check if matches = 26
     Main-->>Main: Return True/False
-```mermaid
-
 ```
+
+```mermaid
 stateDiagram-v2
     [*] --> Initializing: Start
     
@@ -151,9 +151,9 @@ stateDiagram-v2
         - Remove old char on left
         - Track match count
     end note
-```mermaid
-
 ```
+
+```mermaid
 graph TB
     subgraph "CheckInclusion Main Logic"
         Check[CheckInclusion]
