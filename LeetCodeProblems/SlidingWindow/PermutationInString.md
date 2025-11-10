@@ -30,7 +30,7 @@ flowchart TD
     
     InitDicts --> PopulateInit[Populate initial window:<br/>For i = 0 to s1.Length-1<br/>Count chars in s1 and first window of s2]
     
-    PopulateInit --> CalcMatches[Calculate initial matches<br/>matches = count where s1Count[i] = s2Count[i]]
+    PopulateInit --> CalcMatches[Calculate initial matches<br/>matches = count where s1Count at i = s2Count at i]
     
     CalcMatches --> InitPointers[Initialize pointers:<br/>l = 0<br/>r = s1.Length]
     
@@ -43,9 +43,9 @@ flowchart TD
     LoopCheck -->|Yes| CheckMatches{matches = 26?}
     CheckMatches -->|Yes| ReturnTrue1[Return True]
     
-    CheckMatches -->|No| AddRight[AddRightChar:<br/>Add s2[r] to window<br/>Update s2Count and matches]
+    CheckMatches -->|No| AddRight[AddRightChar:<br/>Add s2 at r to window<br/>Update s2Count and matches]
     
-    AddRight --> RemoveLeft[RemoveLeftChar:<br/>Remove s2[l] from window<br/>Update s2Count and matches]
+    AddRight --> RemoveLeft[RemoveLeftChar:<br/>Remove s2 at l from window<br/>Update s2Count and matches]
     
     RemoveLeft --> IncrementPtrs[l += 1<br/>r += 1 implicit in loop]
     
