@@ -22,6 +22,8 @@ Constraints:
 1 <= s1.length, s2.length <= 104
 s1 and s2 consist of lowercase English letters.
 
+### Flowchart
+
 ```mermaid
 flowchart TD
     Start([Start: CheckInclusion s1, s2]) --> CheckLen{s2.Length < s1.Length?}
@@ -64,62 +66,7 @@ flowchart TD
     style ReturnFalse2 fill:#FFA07A
 ```
 
-```mermaid
-sequenceDiagram
-    participant Main as CheckInclusion
-    participant Init as InitCounts
-    participant Set as SetCounts
-    participant Match as InitMatches
-    participant Add as AddRightChar
-    participant Remove as RemoveLeftChar
-    participant Enc as EncodeChar
-
-    Main->>Main: Check if s2.Length < s1.Length
-    
-    Main->>Init: InitCounts(s1Count, s2Count)
-    Init-->>Main: Dictionaries initialized (0-25 = 0)
-    
-    loop For each char in initial window
-        Main->>Set: SetCounts(s1, s1Count, i)
-        Set->>Enc: EncodeChar(char)
-        Enc-->>Set: encoded index
-        Set-->>Main: s1Count updated
-        
-        Main->>Set: SetCounts(s2, s2Count, i)
-        Set->>Enc: EncodeChar(char)
-        Enc-->>Set: encoded index
-        Set-->>Main: s2Count updated
-    end
-    
-    Main->>Match: InitMatches(s1Count, s2Count)
-    Match-->>Main: initial matches count
-    
-    loop For r = s1.Length to s2.Length-1
-        Main->>Main: Check if matches = 26
-        alt matches = 26
-            Main-->>Main: Return True
-        else continue
-            Main->>Add: AddRightChar(s1Count, s2Count, matches, s2, s2[r])
-            Add->>Enc: EncodeChar(s2[r])
-            Enc-->>Add: encoded index
-            Add->>Add: Increment s2Count[encoded]
-            Add->>Add: Update matches based on equality
-            Add-->>Main: matches updated
-            
-            Main->>Remove: RemoveLeftChar(s1Count, s2Count, matches, s2, s2[l])
-            Remove->>Enc: EncodeChar(s2[l])
-            Enc-->>Remove: encoded index
-            Remove->>Remove: Decrement s2Count[encoded]
-            Remove->>Remove: Update matches based on equality
-            Remove-->>Main: matches updated
-            
-            Main->>Main: l += 1
-        end
-    end
-    
-    Main->>Main: Final check if matches = 26
-    Main-->>Main: Return True/False
-```
+### State Diagram
 
 ```mermaid
 stateDiagram-v2
@@ -152,6 +99,8 @@ stateDiagram-v2
         - Track match count
     end note
 ```
+
+### Component Diagram
 
 ```mermaid
 graph TB

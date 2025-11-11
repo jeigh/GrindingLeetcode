@@ -1,13 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Runtime.InteropServices;
-using System.Text;
-using System.Threading.Tasks;
+﻿using LeetCodeProblems.Interfaces.Medium;
 
-namespace LeetCodeProblems
+namespace LeetCodeProblems.CSharp.SlidingWindow
 {
-    public class PermutationInString
+    public class PermutationInStringSlidingWindow_567 : IPermutationInString_567
     {
         private Dictionary<char, int> CreateHashmapFromAlphabet()
         {
@@ -48,7 +43,7 @@ namespace LeetCodeProblems
         // surprisinly, leetcode says it performs better than most other submissions
         // time complexity: O(n) space complexity:  O(1)
 
-        public bool CheckInclusionSlidingWindow(string s1, string s2)
+        public bool CheckInclusion(string s1, string s2)
         {
             if (s1.Length > s2.Length) return false;
 
