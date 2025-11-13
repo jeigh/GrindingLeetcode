@@ -1,6 +1,8 @@
-﻿namespace LeetCodeProblems.CSharp.HashingOrArrays
+﻿using LeetCodeProblems.Interfaces.Medium;
+
+namespace LeetCodeProblems.CSharp.HashingOrArrays
 {
-    public class PermutationInStringHashMapSolution_567
+    public class PermutationInStringHashMapSolution_567 : IPermutationInString_567
     {
         // incremental improvement:  this has a time complexity of O(n * m), so not ideal
         public bool CheckInclusion(string s1, string s2)

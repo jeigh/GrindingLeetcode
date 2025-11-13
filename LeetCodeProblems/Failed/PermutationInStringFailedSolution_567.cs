@@ -1,8 +1,9 @@
-﻿using System.Runtime.InteropServices;
+﻿using LeetCodeProblems.Interfaces.Medium;
+using System.Runtime.InteropServices;
 
 namespace LeetCodeProblems.CSharp.Failed
 {
-    public class PermutationInStringFailedSolution_567
+    public class PermutationInStringFailedSolution_567 : IPermutationInString_567
     {
         // this has a time complexity of O(n * m²), so not ideal
         public bool CheckInclusion(string s1, string s2)
