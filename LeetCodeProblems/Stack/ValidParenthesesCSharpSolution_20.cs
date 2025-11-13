@@ -1,16 +1,33 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using LeetCodeProblems.Interfaces.Easy;
 
 namespace LeetCodeProblems
 {
-    public class ValidParentheses
+    public class MyStack_225 : IImplementStackUsingQueues_225
     {
-        // this was an easy one.
-        // time commplexity: O(n)
-        // space complexity: O(n)
+        public bool Empty()
+        {
+            throw new NotImplementedException();
+        }
+
+        public int Pop()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Push(int x)
+        {
+            throw new NotImplementedException();
+        }
+
+        public int Top()
+        {
+            throw new NotImplementedException();
+        }
+    }
+
+    public class ValidParenthesesCSharpSolution_20 : IValidParentheses_20
+    {
+        // time commplexity: O(n), space complexity: O(n)
         public bool IsValid(string s)
         {
             var parentheses = new Stack<char>();
