@@ -2,29 +2,6 @@
 
 namespace LeetCodeProblems
 {
-    public class MyStack_225 : IImplementStackUsingQueues_225
-    {
-        public bool Empty()
-        {
-            throw new NotImplementedException();
-        }
-
-        public int Pop()
-        {
-            throw new NotImplementedException();
-        }
-
-        public void Push(int x)
-        {
-            throw new NotImplementedException();
-        }
-
-        public int Top()
-        {
-            throw new NotImplementedException();
-        }
-    }
-
     public class ValidParenthesesCSharpSolution_20 : IValidParentheses_20
     {
         // time commplexity: O(n), space complexity: O(n)
