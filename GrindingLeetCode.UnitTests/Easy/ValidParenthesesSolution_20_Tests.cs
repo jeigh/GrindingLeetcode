@@ -2,7 +2,7 @@ using LeetCodeProblems;
 using LeetCodeProblems.Interfaces.Easy;
 using LeetCodeProblems.VisualBasic;
 
-namespace GrindingLeetCode.UnitTests.Stack
+namespace GrindingLeetCode.UnitTests.Easy
 {
     [TestClass]
     public class ValidParenthesesSolution_20_Tests

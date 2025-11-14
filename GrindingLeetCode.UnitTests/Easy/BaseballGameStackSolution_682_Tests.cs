@@ -2,7 +2,7 @@ using LeetCodeProblems.CSharp.Stack;
 using LeetCodeProblems.Interfaces.Easy;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace GrindingLeetCode.UnitTests.Stack
+namespace GrindingLeetCode.UnitTests.Easy
 {
     [TestClass]
     public class BaseballGameStackSolution_682_Tests
