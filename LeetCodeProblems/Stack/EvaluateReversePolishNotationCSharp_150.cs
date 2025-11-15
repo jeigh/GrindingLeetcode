@@ -1,6 +1,8 @@
-﻿namespace LeetCodeProblems
+﻿using LeetCodeProblems.Interfaces.Medium;
+
+namespace LeetCodeProblems.CSharp.Stack
 {
-    public class ReversePolishNotationSolution
+    public class EvaluateReversePolishNotationCSharp_150 : IEvaluateReversePolishNotationCSharp_150
     {
         // this one was fairly easy
         // space complexity: O(n)
@@ -9,7 +11,7 @@
         public int EvalRPN(string[] tokens)
         {
             Stack<int> theStack = new Stack<int>();
-            
+
             foreach (string token in tokens)
             {
                 if (int.TryParse(token, out int parsed))
