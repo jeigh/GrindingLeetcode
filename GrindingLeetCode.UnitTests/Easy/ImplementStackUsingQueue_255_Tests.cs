@@ -5,13 +5,13 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace GrindingLeetCode.UnitTests.Easy
 {
     [TestClass]
-    public class MyStack_225_Tests
+    public class ImplementStackUsingQueue_255_Tests
     {
         [TestMethod]
         public void MyStack_Example1_WorksCorrectly()
         {
             // Arrange
-            var myStack = new MyStack_225();
+            var myStack = new ImplementStackUsingQueues_225();
 
             // Act & Assert
             myStack.Push(1);
@@ -25,7 +25,7 @@ namespace GrindingLeetCode.UnitTests.Easy
         public void Push_SingleElement_CanBeRetrieved()
         {
             // Arrange
-            var myStack = new MyStack_225();
+            var myStack = new ImplementStackUsingQueues_225();
 
             // Act
             myStack.Push(5);
@@ -39,7 +39,7 @@ namespace GrindingLeetCode.UnitTests.Easy
         public void Push_MultipleElements_MaintainsLIFOOrder()
         {
             // Arrange
-            var myStack = new MyStack_225();
+            var myStack = new ImplementStackUsingQueues_225();
 
             // Act
             myStack.Push(1);
@@ -56,7 +56,7 @@ namespace GrindingLeetCode.UnitTests.Easy
         public void Pop_RemovesTopElement_ReturnsValue()
         {
             // Arrange
-            var myStack = new MyStack_225();
+            var myStack = new ImplementStackUsingQueues_225();
             myStack.Push(10);
             myStack.Push(20);
 
@@ -72,7 +72,7 @@ namespace GrindingLeetCode.UnitTests.Easy
         public void Top_DoesNotRemoveElement()
         {
             // Arrange
-            var myStack = new MyStack_225();
+            var myStack = new ImplementStackUsingQueues_225();
             myStack.Push(7);
 
             // Act
@@ -89,7 +89,7 @@ namespace GrindingLeetCode.UnitTests.Easy
         public void Empty_NewStack_ReturnsTrue()
         {
             // Arrange
-            var myStack = new MyStack_225();
+            var myStack = new ImplementStackUsingQueues_225();
 
             // Act
             bool isEmpty = myStack.Empty();
@@ -102,7 +102,7 @@ namespace GrindingLeetCode.UnitTests.Easy
         public void Empty_AfterPushAndPop_ReturnsTrue()
         {
             // Arrange
-            var myStack = new MyStack_225();
+            var myStack = new ImplementStackUsingQueues_225();
             myStack.Push(1);
             myStack.Pop();
 
@@ -117,7 +117,7 @@ namespace GrindingLeetCode.UnitTests.Easy
         public void Empty_WithElements_ReturnsFalse()
         {
             // Arrange
-            var myStack = new MyStack_225();
+            var myStack = new ImplementStackUsingQueues_225();
             myStack.Push(1);
 
             // Act
@@ -131,7 +131,7 @@ namespace GrindingLeetCode.UnitTests.Easy
         public void PushPopSequence_AlternatingOperations_WorksCorrectly()
         {
             // Arrange
-            var myStack = new MyStack_225();
+            var myStack = new ImplementStackUsingQueues_225();
 
             // Act & Assert
             myStack.Push(1);
@@ -153,7 +153,7 @@ namespace GrindingLeetCode.UnitTests.Easy
         public void Push_ManyElements_MaintainsOrder()
         {
             // Arrange
-            var myStack = new MyStack_225();
+            var myStack = new ImplementStackUsingQueues_225();
 
             // Act
             for (int i = 1; i <= 10; i++)
@@ -173,7 +173,7 @@ namespace GrindingLeetCode.UnitTests.Easy
         public void Top_AfterMultiplePushes_ReturnsLastPushed()
         {
             // Arrange
-            var myStack = new MyStack_225();
+            var myStack = new ImplementStackUsingQueues_225();
             myStack.Push(1);
             myStack.Push(2);
             myStack.Push(3);
@@ -189,7 +189,7 @@ namespace GrindingLeetCode.UnitTests.Easy
         public void Pop_AllElements_StackBecomesEmpty()
         {
             // Arrange
-            var myStack = new MyStack_225();
+            var myStack = new ImplementStackUsingQueues_225();
             myStack.Push(1);
             myStack.Push(2);
             myStack.Push(3);
@@ -207,7 +207,7 @@ namespace GrindingLeetCode.UnitTests.Easy
         public void PushPop_SingleElement_ReturnsCorrectValue()
         {
             // Arrange
-            var myStack = new MyStack_225();
+            var myStack = new ImplementStackUsingQueues_225();
 
             // Act
             myStack.Push(42);
@@ -222,7 +222,7 @@ namespace GrindingLeetCode.UnitTests.Easy
         public void Top_MultipleCalls_ReturnsSameValue()
         {
             // Arrange
-            var myStack = new MyStack_225();
+            var myStack = new ImplementStackUsingQueues_225();
             myStack.Push(100);
             myStack.Push(200);
 
@@ -241,7 +241,7 @@ namespace GrindingLeetCode.UnitTests.Easy
         public void ComplexSequence_MixedOperations_WorksCorrectly()
         {
             // Arrange
-            var myStack = new MyStack_225();
+            var myStack = new ImplementStackUsingQueues_225();
 
             // Act & Assert - Complex sequence from LeetCode
             myStack.Push(1);
@@ -261,7 +261,7 @@ namespace GrindingLeetCode.UnitTests.Easy
         public void Push_NegativeNumbers_WorksCorrectly()
         {
             // Arrange
-            var myStack = new MyStack_225();
+            var myStack = new ImplementStackUsingQueues_225();
 
             // Act
             myStack.Push(-5);
@@ -278,7 +278,7 @@ namespace GrindingLeetCode.UnitTests.Easy
         public void Push_DuplicateValues_MaintainsAll()
         {
             // Arrange
-            var myStack = new MyStack_225();
+            var myStack = new ImplementStackUsingQueues_225();
 
             // Act
             myStack.Push(5);
@@ -296,7 +296,7 @@ namespace GrindingLeetCode.UnitTests.Easy
         public void PushPopPush_RefillAfterEmpty_WorksCorrectly()
         {
             // Arrange
-            var myStack = new MyStack_225();
+            var myStack = new ImplementStackUsingQueues_225();
 
             // Act & Assert - Empty, fill, empty, fill again
             myStack.Push(1);
@@ -313,7 +313,7 @@ namespace GrindingLeetCode.UnitTests.Easy
         public void Top_AfterPop_ReturnsNewTop()
         {
             // Arrange
-            var myStack = new MyStack_225();
+            var myStack = new ImplementStackUsingQueues_225();
             myStack.Push(1);
             myStack.Push(2);
             myStack.Push(3);
@@ -330,7 +330,7 @@ namespace GrindingLeetCode.UnitTests.Easy
         public void LargeNumbers_WorksCorrectly()
         {
             // Arrange
-            var myStack = new MyStack_225();
+            var myStack = new ImplementStackUsingQueues_225();
 
             // Act
             myStack.Push(int.MaxValue);
@@ -345,7 +345,7 @@ namespace GrindingLeetCode.UnitTests.Easy
         public void RepeatPushPop_StressTest_WorksCorrectly()
         {
             // Arrange
-            var myStack = new MyStack_225();
+            var myStack = new ImplementStackUsingQueues_225();
 
             // Act & Assert - Repeated operations
             for (int i = 0; i < 100; i++)
