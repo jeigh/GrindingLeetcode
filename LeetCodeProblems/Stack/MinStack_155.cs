@@ -1,6 +1,8 @@
-﻿namespace LeetCodeProblems
+﻿using LeetCodeProblems.Interfaces.Medium;
+
+namespace LeetCodeProblems
 {
-    public class MinStack
+    public class MinStack_155 : IMinStack_155
     {
         // I created this before I realized I could have used a second stack for _minvalue.  Oh well...
         // time complexity: O(1) for all methods
@@ -9,7 +11,7 @@
         private Stack<int> _stack;
         private List<int> _minValue;
 
-        public MinStack()
+        public MinStack_155()
         {
             _stack = new Stack<int>();
             _minValue = new List<int>();
@@ -23,7 +25,7 @@
             else
                 newMinValue = val;
 
-                _minValue.Add(newMinValue);
+            _minValue.Add(newMinValue);
             _stack.Push(val);
         }
 
