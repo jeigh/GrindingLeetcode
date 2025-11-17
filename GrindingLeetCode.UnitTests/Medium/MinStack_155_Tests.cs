@@ -2,7 +2,7 @@ using LeetCodeProblems;
 using LeetCodeProblems.Interfaces.Medium;
 using LeetCodeProblems.VisualBasic.Stack;
 
-namespace GrindingLeetCode.UnitTests.Stack
+namespace GrindingLeetCode.UnitTests.Medium
 {
     [TestClass]
     public class MinStack_155_Tests
