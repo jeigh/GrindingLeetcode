@@ -1,6 +1,8 @@
-﻿namespace LeetCodeProblems
+﻿using LeetCodeProblems.Interfaces.Medium;
+
+namespace LeetCodeProblems.CSharp.Stack
 {
-    public class DailyTemperaturesSolution
+    public class DailyTemperaturesCSharpSolution_739 : IDailyTemperatures_739
     {
         // i recognized this as a monotonic decreasing stack problem from the outset.
         // space complexity: O(n)
@@ -17,9 +19,7 @@
                 if (monotonicDecreasingStack.Count == 0) 
                     monotonicDecreasingStack.Push(i);
                 else
-                {
-                    
-                    
+                {   
                     while (
                         monotonicDecreasingStack.TryPeek(out int peeked)  && 
                         temp > temperatures[peeked])
