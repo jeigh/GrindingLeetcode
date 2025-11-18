@@ -2,7 +2,7 @@ using LeetCodeProblems;
 using LeetCodeProblems.Interfaces.Easy;
 
 
-namespace GrindingLeetCode.UnitTests.SlidingWindow
+namespace GrindingLeetCode.UnitTests.Easy
 {
     [TestClass]
     public class ContainsDuplicateIIHashSetSolution_219_Tests
