@@ -1,7 +1,7 @@
 using LeetCodeProblems.HashingOrArrays;
 using LeetCodeProblems.Interfaces.Easy;
 
-namespace GrindingLeetCode.UnitTests.HashingOrArrays
+namespace GrindingLeetCode.UnitTests.Easy
 {
 
     [TestClass]
