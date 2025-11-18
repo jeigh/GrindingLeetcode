@@ -2,7 +2,7 @@ using LeetCodeProblems.CSharp.Stack;
 using LeetCodeProblems.Interfaces.Medium;
 using LeetCodeProblems.VisualBasic.Stack;
 
-namespace GrindingLeetCode.UnitTests.Stack
+namespace GrindingLeetCode.UnitTests.Medium
 {
     [TestClass]
     public class EvaluateReversePolishNotation_150_Tests
