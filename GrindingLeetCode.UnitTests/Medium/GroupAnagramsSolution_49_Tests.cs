@@ -3,7 +3,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace GrindingLeetCode.UnitTests.HashingOrArrays
+namespace GrindingLeetCode.UnitTests.Medium
 {
     [TestClass]
     public class GroupAnagramsSolution_49_Tests
