@@ -1,10 +1,10 @@
 using LeetCodeProblems.HashingOrArrays;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace GrindingLeetCode.UnitTests.HashingOrArrays
+namespace GrindingLeetCode.UnitTests.Medium
 {
     [TestClass]
-    public class LargestConsecutive_Tests
+    public class LargestConsecutive_128_Tests
     {
         private LargestConsecutiveSolution_128 _solution;
 
