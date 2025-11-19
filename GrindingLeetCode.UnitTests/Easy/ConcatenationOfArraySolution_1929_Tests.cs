@@ -1,7 +1,7 @@
 using LeetCodeProblems.Hashing;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace GrindingLeetCode.UnitTests.HashingOrArrays
+namespace GrindingLeetCode.UnitTests.Easy
 {
     [TestClass]
     public class ConcatenationOfArraySolution_1929_Tests
