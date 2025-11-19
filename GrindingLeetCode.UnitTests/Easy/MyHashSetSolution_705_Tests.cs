@@ -1,7 +1,7 @@
 using LeetCodeProblems.HashingOrArrays;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace GrindingLeetCode.UnitTests.HashingOrArrays
+namespace GrindingLeetCode.UnitTests.Easy
 {
     [TestClass]
     public class MyHashSetSolution_705_Tests
