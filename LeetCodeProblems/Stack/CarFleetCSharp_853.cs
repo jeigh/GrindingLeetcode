@@ -1,6 +1,8 @@
-﻿namespace LeetCodeProblems
+﻿using LeetCodeProblems.Interfaces.Medium;
+
+namespace LeetCodeProblems.CSharp.Stack
 {
-    public class CarFleetSolution
+    public class CarFleetCSharp_853 : ICarFleet_853
     {
         // I used some oop on this one.   
         // time complexity: O(n log n)
