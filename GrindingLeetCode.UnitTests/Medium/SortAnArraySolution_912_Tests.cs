@@ -1,7 +1,7 @@
 using LeetCodeProblems.HashingOrArrays;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace GrindingLeetCode.UnitTests.HashingOrArrays
+namespace GrindingLeetCode.UnitTests.Medium
 {
     [TestClass]
     public class SortAnArraySolution_912_Tests
