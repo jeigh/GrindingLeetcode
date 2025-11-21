@@ -1,4 +1,8 @@
-﻿namespace LeetCodeProblems.Interfaces.Medium
+﻿using System;
+using System.IO;
+using static System.Runtime.InteropServices.JavaScript.JSType;
+
+namespace LeetCodeProblems.Interfaces.Medium
 {
     /// <summary>
     /// We are given an array asteroids of integers representing asteroids in a row. The indices of the asteroid in the array represent their relative position in space.
@@ -10,6 +14,5 @@
     public interface IAsteroidCollision_735
     {
         int[] AsteroidCollision(int[] asteroids);
-
     }
 }
