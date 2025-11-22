@@ -1,7 +1,7 @@
 using LeetCodeProblems.HashingOrArrays;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace GrindingLeetCode.UnitTests
+namespace GrindingLeetCode.UnitTests.Medium
 {
     [TestClass]
     public class MergeSortSolution_912_RunZipperMerge_Tests
