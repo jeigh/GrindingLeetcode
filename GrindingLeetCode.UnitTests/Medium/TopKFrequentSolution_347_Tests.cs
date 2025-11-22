@@ -1,6 +1,6 @@
 using LeetCodeProblems;
 
-namespace GrindingLeetCode.UnitTests.HashingOrArrays
+namespace GrindingLeetCode.UnitTests.Medium
 {
     [TestClass]
     public class TopKFrequentSolution_347_Tests
