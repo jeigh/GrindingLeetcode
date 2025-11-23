@@ -2,7 +2,7 @@ using LeetCodeProblems.BinarySearch;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using static LeetCodeProblems.BinarySearch.TimebasedKeyValueStoreSolution_981;
 
-namespace GrindingLeetCode.UnitTests.BinarySearch
+namespace GrindingLeetCode.UnitTests.Medium
 {
     [TestClass]
     public class TimebasedKeyValueStoreSolution_981_Tests
