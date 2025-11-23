@@ -1,6 +1,6 @@
 using LeetCodeProblems.BinarySearch;
 
-namespace GrindingLeetCode.UnitTests.BinarySearch
+namespace GrindingLeetCode.UnitTests.Medium
 {
     [TestClass]
     public class KokoEatingBananasSolution_875_Tests
