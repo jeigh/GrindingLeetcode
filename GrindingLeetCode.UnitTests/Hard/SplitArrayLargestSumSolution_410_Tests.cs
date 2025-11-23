@@ -1,7 +1,7 @@
 using LeetCodeProblems.BinarySearch;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace GrindingLeetCode.UnitTests.BinarySearch
+namespace GrindingLeetCode.UnitTests.Hard
 {
     [TestClass]
     public class SplitArrayLargestSumSolution_410_Tests
