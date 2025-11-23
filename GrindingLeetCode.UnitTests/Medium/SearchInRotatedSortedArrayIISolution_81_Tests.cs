@@ -1,7 +1,7 @@
 using LeetCodeProblems.BinarySearch;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace GrindingLeetCode.UnitTests.BinarySearch
+namespace GrindingLeetCode.UnitTests.Medium
 {
     [TestClass]
     public class SearchInRotatedSortedArrayIISolution_81_Tests
