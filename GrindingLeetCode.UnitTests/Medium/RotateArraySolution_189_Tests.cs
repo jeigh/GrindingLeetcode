@@ -1,7 +1,7 @@
 using LeetCodeProblems.Failed;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace GrindingLeetCode.UnitTests.Failed
+namespace GrindingLeetCode.UnitTests.Medium
 {
     [TestClass]
     public class RotateArraySolution_189_Tests
