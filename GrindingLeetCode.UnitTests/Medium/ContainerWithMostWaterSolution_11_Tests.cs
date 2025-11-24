@@ -1,7 +1,7 @@
 using LeetCodeProblems.CSharp.TwoPointers;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace GrindingLeetCode.UnitTests.TwoPointers
+namespace GrindingLeetCode.UnitTests.Medium
 {
     [TestClass]
     public class ContainerWithMostWaterSolution_11_Tests
