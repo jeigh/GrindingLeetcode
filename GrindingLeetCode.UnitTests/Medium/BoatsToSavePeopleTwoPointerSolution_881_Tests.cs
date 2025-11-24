@@ -1,7 +1,7 @@
 using LeetCodeProblems.TwoPointers;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace GrindingLeetCode.UnitTests.TwoPointers
+namespace GrindingLeetCode.UnitTests.Medium
 {
     [TestClass]
     public class BoatsToSavePeopleTwoPointerSolution_881_Tests
