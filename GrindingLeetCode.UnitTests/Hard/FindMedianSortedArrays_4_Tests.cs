@@ -3,7 +3,7 @@ using LeetCodeProblems.CSharp.Failed;
 using LeetCodeProblems.CSharp.Unconventional;
 using LeetCodeProblems.Interfaces.Hard;
 
-namespace GrindingLeetCode.UnitTests.Failed
+namespace GrindingLeetCode.UnitTests.Hard
 {
     [TestClass]
     public class FindMedianSortedArrays_4_Tests
