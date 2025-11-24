@@ -3,7 +3,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace GrindingLeetCode.UnitTests
+namespace GrindingLeetCode.UnitTests.Medium
 {
     [TestClass]
     public class ThreeSumTwoPointerSolution_15_Tests
