@@ -1,7 +1,7 @@
 using LeetCodeProblems.TwoPointers;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace GrindingLeetCode.UnitTests.HashingOrArrays
+namespace GrindingLeetCode.UnitTests.Medium
 {
     [TestClass]
     public class RotateArrayReverseSolution_189_Tests
