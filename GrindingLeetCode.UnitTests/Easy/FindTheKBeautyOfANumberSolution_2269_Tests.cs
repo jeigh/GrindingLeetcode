@@ -1,7 +1,7 @@
 using LeetCodeProblems.CSharp.SlidingWindow;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace GrindingLeetCode.UnitTests.SlidingWindow
+namespace GrindingLeetCode.UnitTests.Easy
 {
     [TestClass]
     public class FindTheKBeautyOfANumberSolution_2269_Tests
