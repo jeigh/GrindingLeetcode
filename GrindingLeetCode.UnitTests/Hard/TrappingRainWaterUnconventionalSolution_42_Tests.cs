@@ -1,7 +1,7 @@
 using LeetCodeProblems.Unconventional;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace GrindingLeetCode.UnitTests.Unconventional
+namespace GrindingLeetCode.UnitTests.Hard
 {
     [TestClass]
     public class TrappingRainWaterUnconventionalSolution_42_Tests
