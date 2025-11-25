@@ -4,7 +4,7 @@ using LeetCodeProblems.Interfaces.Easy;
 using LeetCodeProblems.TwoPointers;
 using LeetCodeProblems.VisualBasic.SlidingWindow;
 
-namespace GrindingLeetCode.UnitTests
+namespace GrindingLeetCode.UnitTests.Easy
 {
     [TestClass]
     public class BestTimeToBuyAndSellStockSolution_121_Tests
