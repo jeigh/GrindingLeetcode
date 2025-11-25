@@ -1,7 +1,7 @@
 using LeetCodeProblems.Interfaces.Medium;
 using LeetCodeProblems.TwoPointers;
 
-namespace GrindingLeetCode.UnitTests.TwoPointers
+namespace GrindingLeetCode.UnitTests.Medium
 {
     [TestClass]
     public class TwoIntegerSumIITwoPointersSolution_167_Tests
