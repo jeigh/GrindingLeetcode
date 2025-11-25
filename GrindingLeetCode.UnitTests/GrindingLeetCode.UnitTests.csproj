@@ -21,9 +21,4 @@
     <Using Include="Microsoft.VisualStudio.TestTools.UnitTesting" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="BruteForce\" />
-    <Folder Include="Dynamic\" />
-  </ItemGroup>
-
 </Project>
