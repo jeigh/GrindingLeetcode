@@ -1,6 +1,6 @@
 using LeetCodeProblems.Unconventional;
 
-namespace GrindingLeetCode.UnitTests.Unconventional
+namespace GrindingLeetCode.UnitTests.Medium
 {
     [TestClass]
     public class ThreeSumUnconventionalSolution_15_Tests
