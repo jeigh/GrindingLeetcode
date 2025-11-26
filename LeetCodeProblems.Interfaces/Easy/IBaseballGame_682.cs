@@ -20,6 +20,5 @@
     public interface IBaseballGame_682
     {
         public int CalPoints(string[] operations);
-
     }
 }
