@@ -1,8 +1,9 @@
-﻿using LeetCodeProblems.Shared;
+﻿using LeetCodeProblems.Interfaces.Easy;
+using LeetCodeProblems.Shared;
 
-namespace LeetCodeProblems
+namespace LeetCodeProblems.CSharp.LinkedList
 {
-    public class MergeTwoListsSolution
+    public class MergeTwoListsCSharp_21 : IMergeTwoLists_21
     {
         // time complexity: O(n+m)
         // space complexity: O(n+m)
