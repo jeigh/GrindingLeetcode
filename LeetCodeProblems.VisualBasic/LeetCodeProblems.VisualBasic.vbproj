@@ -9,8 +9,4 @@
     <ProjectReference Include="..\LeetCodeProblems.Interfaces\LeetCodeProblems.Interfaces.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Unfinished\" />
-  </ItemGroup>
-
 </Project>
