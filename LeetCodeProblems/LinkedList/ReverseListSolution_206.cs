@@ -1,8 +1,9 @@
-﻿using LeetCodeProblems.Shared;
+﻿using LeetCodeProblems.Interfaces.Easy;
+using LeetCodeProblems.Shared;
 
-namespace LeetCodeProblems
+namespace LeetCodeProblems.CSharp.LinkedList
 {
-    public class ReverseListSolution
+    public class ReverseListSolution_206 : IReverseLinkedList_206
     {
         // time complexity: O(n)
         // space complexity: O(1)
