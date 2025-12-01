@@ -12,10 +12,10 @@ namespace LeetCodeProblems.CSharp.LinkedList
 
             while (nodeA != nodeB)
             {
-                if (nodeA.next != null) nodeA = nodeA.next; 
+                if (nodeA != null) nodeA = nodeA.next; 
                 else nodeA = headB;
 
-                if (nodeB.next != null) nodeB = nodeB.next;
+                if (nodeB != null) nodeB = nodeB.next;
                 else nodeB = headA;
             }
 
