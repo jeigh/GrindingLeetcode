@@ -141,12 +141,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="ListNode.h" />
-    <ClInclude Include="ReverseListCpp_206.h" />
+    <ClInclude Include="ReorderList_143.h" />
+    <ClInclude Include="ReverseList_206.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="MiddleOfLinkedList_876.h" />
-    <ClCompile Include="ReverseListCpp_206.cpp" />
-    <ClCompile Include="MiddleOfLinkedList_876.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

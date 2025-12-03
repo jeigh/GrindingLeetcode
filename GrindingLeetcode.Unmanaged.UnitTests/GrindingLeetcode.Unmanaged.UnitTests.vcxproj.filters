@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="MiddleOfLinkedList_876_Tests.cpp">
+      <Filter>LinkedList</Filter>
+    </ClCompile>
+    <ClCompile Include="ReorderList_143_Tests.cpp">
+      <Filter>LinkedList</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TestHelpers.h" />
+    <ClInclude Include="ReverseList_206_Tests.cpp">
+      <Filter>LinkedList</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="LinkedList">
+      <UniqueIdentifier>{c4b7c91e-b09a-4d5f-9295-2e52d5090b4d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

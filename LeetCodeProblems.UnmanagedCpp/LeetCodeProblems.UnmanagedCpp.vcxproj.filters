@@ -13,24 +13,27 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Header Files\LinkedList">
+      <UniqueIdentifier>{590ccde5-da58-4b11-80bc-a7c88b9a74fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\LinkedList">
+      <UniqueIdentifier>{798aca4e-a8e5-480b-8872-282fc7bd75ac}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="ReverseList_206.h">
+      <Filter>Header Files\LinkedList</Filter>
+    </ClInclude>
     <ClInclude Include="ListNode.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\LinkedList</Filter>
     </ClInclude>
-    <ClInclude Include="ReverseListCpp_206.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="ReorderList_143.h">
+      <Filter>Header Files\LinkedList</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ReverseListCpp_206.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="MiddleOfLinkedList_876.h">
-      <Filter>Header Files</Filter>
-    </ClCompile>
-    <ClCompile Include="MiddleOfLinkedList_876.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Header Files\LinkedList</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
