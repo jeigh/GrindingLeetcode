@@ -8,12 +8,13 @@
     <ClCompile Include="ReorderList_143_Tests.cpp">
       <Filter>LinkedList</Filter>
     </ClCompile>
+    <ClCompile Include="ReverseList_206_Tests.cpp" />
+    <ClCompile Include="RemoveNthNodeFromLinkedList_19_Tests.cpp">
+      <Filter>LinkedList</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestHelpers.h" />
-    <ClInclude Include="ReverseList_206_Tests.cpp">
-      <Filter>LinkedList</Filter>
-    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

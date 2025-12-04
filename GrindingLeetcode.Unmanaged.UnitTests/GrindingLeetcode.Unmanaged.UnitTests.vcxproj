@@ -106,6 +106,7 @@
   <ItemGroup>
     <ClCompile Include="main.cpp" />
     <ClCompile Include="MiddleOfLinkedList_876_Tests.cpp" />
+    <ClCompile Include="RemoveNthNodeFromLinkedList_19_Tests.cpp" />
     <ClCompile Include="ReorderList_143_Tests.cpp" />
     <ClCompile Include="ReverseList_206_Tests.cpp" />
   </ItemGroup>
