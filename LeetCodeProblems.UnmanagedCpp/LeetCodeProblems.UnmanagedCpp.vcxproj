@@ -141,6 +141,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="ListNode.h" />
+    <ClInclude Include="RemoveNthNodeFromLinkedList_19.h" />
     <ClInclude Include="ReorderList_143.h" />
     <ClInclude Include="ReverseList_206.h" />
   </ItemGroup>
