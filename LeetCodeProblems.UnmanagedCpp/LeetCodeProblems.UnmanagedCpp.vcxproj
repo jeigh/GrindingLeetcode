@@ -140,7 +140,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="Header.h" />
     <ClInclude Include="ListNode.h" />
     <ClInclude Include="ReorderList_143.h" />
     <ClInclude Include="ReverseList_206.h" />

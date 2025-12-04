@@ -30,9 +30,6 @@
     <ClInclude Include="ReorderList_143.h">
       <Filter>Header Files\LinkedList</Filter>
     </ClInclude>
-    <ClInclude Include="Header.h">
-      <Filter>Header Files\LinkedList</Filter>
-    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="MiddleOfLinkedList_876.h">
