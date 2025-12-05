@@ -104,6 +104,7 @@
     <ClInclude Include="TestHelpers.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="AddTwoNumbers_2_Tests.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="MiddleOfLinkedList_876_Tests.cpp" />
     <ClCompile Include="RemoveNthNodeFromLinkedList_19_Tests.cpp" />

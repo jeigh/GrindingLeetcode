@@ -12,6 +12,9 @@
     <ClCompile Include="RemoveNthNodeFromLinkedList_19_Tests.cpp">
       <Filter>LinkedList</Filter>
     </ClCompile>
+    <ClCompile Include="AddTwoNumbers_2_Tests.cpp">
+      <Filter>LinkedList</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestHelpers.h" />
