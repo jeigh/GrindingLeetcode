@@ -36,6 +36,12 @@
     <ClInclude Include="AddTwoNumbers_2.h">
       <Filter>Header Files\LinkedList</Filter>
     </ClInclude>
+    <ClInclude Include="ReverseLinkedListII_ReversalAndReconnect_92.h">
+      <Filter>Header Files\LinkedList</Filter>
+    </ClInclude>
+    <ClInclude Include="ReverseLinkedListII_MoveToFront_92.h">
+      <Filter>Header Files\LinkedList</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="MiddleOfLinkedList_876.h">
