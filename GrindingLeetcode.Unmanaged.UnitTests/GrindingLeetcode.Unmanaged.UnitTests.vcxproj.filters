@@ -3,17 +3,20 @@
   <ItemGroup>
     <ClCompile Include="main.cpp" />
     <ClCompile Include="MiddleOfLinkedList_876_Tests.cpp">
-      <Filter>LinkedList</Filter>
+      <Filter>Medium</Filter>
     </ClCompile>
     <ClCompile Include="ReorderList_143_Tests.cpp">
-      <Filter>LinkedList</Filter>
+      <Filter>Medium</Filter>
     </ClCompile>
     <ClCompile Include="ReverseList_206_Tests.cpp" />
     <ClCompile Include="RemoveNthNodeFromLinkedList_19_Tests.cpp">
-      <Filter>LinkedList</Filter>
+      <Filter>Medium</Filter>
     </ClCompile>
     <ClCompile Include="AddTwoNumbers_2_Tests.cpp">
-      <Filter>LinkedList</Filter>
+      <Filter>Medium</Filter>
+    </ClCompile>
+    <ClCompile Include="ReverseLinkedListII_92_Tests.cpp">
+      <Filter>Medium</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -23,7 +26,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Filter Include="LinkedList">
+    <Filter Include="Medium">
       <UniqueIdentifier>{c4b7c91e-b09a-4d5f-9295-2e52d5090b4d}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
