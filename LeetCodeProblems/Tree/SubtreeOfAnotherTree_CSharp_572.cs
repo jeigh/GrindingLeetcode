@@ -1,6 +1,8 @@
-﻿namespace LeetCodeProblems
+﻿using LeetCodeProblems.Shared;
+
+namespace LeetCodeProblems.CSharp.Tree
 {
-    public class IsSubtreeSolution
+    public class SubtreeOfAnotherTree_CSharp_572
     {
         // time complexity: O(n*m), where n and m are the number of nodes in each tree.
         // space complexity: O(h1+h2) where h1 is the height of the root, and h2 is the height of subroot

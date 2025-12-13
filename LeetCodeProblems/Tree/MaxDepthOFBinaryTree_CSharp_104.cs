@@ -1,6 +1,8 @@
-﻿namespace LeetCodeProblems
+﻿using LeetCodeProblems.Shared;
+
+namespace LeetCodeProblems.CSharp.Tree
 {
-    public class MaxDepthSolution
+    public class MaxDepthOFBinaryTree_CSharp_104
     {
         // space complexity: O(h), time complexity: O(n)
         public int MaxDepth(TreeNode root)

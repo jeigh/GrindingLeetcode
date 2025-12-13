@@ -1,6 +1,8 @@
-﻿namespace LeetCodeProblems
+﻿using LeetCodeProblems.Shared;
+
+namespace LeetCodeProblems.CSharp.Tree
 {
-    public class IsBalancedTreeSolution
+    public class BalancedBinaryTree_CSharp_110
     {
         public bool IsBalanced(TreeNode root)
         {

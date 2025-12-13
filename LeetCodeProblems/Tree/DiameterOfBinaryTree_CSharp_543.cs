@@ -1,6 +1,8 @@
-﻿namespace LeetCodeProblems
+﻿using LeetCodeProblems.Shared;
+
+namespace LeetCodeProblems.CSharp.Tree
 {
-    public class DiameterOfBinaryTreeSolution
+    public class DiameterOfBinaryTree_CSharp_543
     {
         // space complexity O(n), time complexity O(h)
         // where h is the height of the tree, and n is the total number of nodes

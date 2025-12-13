@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using LeetCodeProblems.Shared;
 
-namespace LeetCodeProblems
+namespace LeetCodeProblems.CSharp.Tree
 {
-    public class IsSameTreeSolution
+    public class IsSameTree_CSharp_110
     {
         // time complexity: O(n), space complexity: O(h),
         // where n is the number of nodes in both trees, and h is the height of both trees.
