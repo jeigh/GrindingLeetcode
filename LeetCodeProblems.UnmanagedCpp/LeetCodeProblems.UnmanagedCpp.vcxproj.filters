@@ -16,8 +16,8 @@
     <Filter Include="Header Files\LinkedList">
       <UniqueIdentifier>{590ccde5-da58-4b11-80bc-a7c88b9a74fb}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\LinkedList">
-      <UniqueIdentifier>{798aca4e-a8e5-480b-8872-282fc7bd75ac}</UniqueIdentifier>
+    <Filter Include="Header Files\Tree">
+      <UniqueIdentifier>{e1abc16c-b221-46b6-98ee-dccfb607f8c3}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -41,6 +41,15 @@
     </ClInclude>
     <ClInclude Include="ReverseLinkedListII_MoveToFront_92.h">
       <Filter>Header Files\LinkedList</Filter>
+    </ClInclude>
+    <ClInclude Include="TreeNode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BinaryTreeInorderTraversal_Recursion_94.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BinaryTreeInorderTraversal_Stack_94.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
