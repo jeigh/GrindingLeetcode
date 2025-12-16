@@ -1,8 +1,9 @@
-﻿using LeetCodeProblems.Shared;
+﻿using LeetCodeProblems.Interfaces.Easy;
+using LeetCodeProblems.Shared;
 
 namespace LeetCodeProblems.CSharp.Tree
 {
-    public class MaxDepthOFBinaryTree_CSharp_104
+    public class MaxDepthOfBinaryTree_Recursive_CSharp_104 : IMaxDepthOfBinaryTree_104
     {
         // space complexity: O(h), time complexity: O(n)
         public int MaxDepth(TreeNode root)
