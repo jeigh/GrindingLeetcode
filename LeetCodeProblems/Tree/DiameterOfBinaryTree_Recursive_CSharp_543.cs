@@ -1,12 +1,12 @@
-﻿using LeetCodeProblems.Shared;
+﻿using LeetCodeProblems.Interfaces.Easy;
+using LeetCodeProblems.Shared;
 
 namespace LeetCodeProblems.CSharp.Tree
 {
-    public class DiameterOfBinaryTree_CSharp_543
+    public class DiameterOfBinaryTree_Recursive_CSharp_543 : IDiameterOfBinaryTree_543
     {
         // space complexity O(n), time complexity O(h)
         // where h is the height of the tree, and n is the total number of nodes
-
         public int DiameterOfBinaryTree(TreeNode root)
         {
             DiameterOfBinaryTreeRecursive(root);
