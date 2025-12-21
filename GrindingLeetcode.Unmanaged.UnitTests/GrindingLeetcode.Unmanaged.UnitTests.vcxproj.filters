@@ -19,6 +19,7 @@
       <Filter>Medium</Filter>
     </ClCompile>
     <ClCompile Include="BinaryTreeInorderTraversal_94_Tests.cpp" />
+    <ClCompile Include="BinaryTreePostOrderTraversal_145_Tests.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestHelpers.h" />
