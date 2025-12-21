@@ -51,6 +51,15 @@
     <ClInclude Include="BinaryTreeInorderTraversal_Stack_94.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="BinaryTreePostOrderTraversal_145.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BinaryTreePostOrderTraversal_Reversal_CPP_145.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BinaryTreePostOrderTraversal_TwoVisit_CPP_145.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="MiddleOfLinkedList_876.h">

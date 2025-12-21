@@ -143,6 +143,9 @@
     <ClInclude Include="AddTwoNumbers_2.h" />
     <ClInclude Include="BinaryTreeInorderTraversal_Recursion_94.h" />
     <ClInclude Include="BinaryTreeInorderTraversal_Stack_94.h" />
+    <ClInclude Include="BinaryTreePostOrderTraversal_145.h" />
+    <ClInclude Include="BinaryTreePostOrderTraversal_Reversal_CPP_145.h" />
+    <ClInclude Include="BinaryTreePostOrderTraversal_TwoVisit_CPP_145.h" />
     <ClInclude Include="ListNode.h" />
     <ClInclude Include="RemoveNthNodeFromLinkedList_19.h" />
     <ClInclude Include="ReorderList_143.h" />
