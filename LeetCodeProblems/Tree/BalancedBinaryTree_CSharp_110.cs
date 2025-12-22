@@ -1,29 +1,29 @@
-﻿using LeetCodeProblems.Shared;
+﻿using LeetCodeProblems.Interfaces.Easy;
+using LeetCodeProblems.Shared;
 
 namespace LeetCodeProblems.CSharp.Tree
 {
-    public class BalancedBinaryTree_CSharp_110
+    // solved 2025-12-20
+    public class BalancedBinaryTree_Recursive_CSharp_110 : IBalancedBinaryTree_110
     {
         public bool IsBalanced(TreeNode root)
         {
             if (root == null) return true;
-            var depth = CheckDepth(root);
-            if (DepthDifference > 1) return false;
-            return true;
+            return GetMaxDepth(root).isBalanced;
         }
 
-        public int DepthDifference { get; set; }
-
-        public int CheckDepth(TreeNode node)
+        public (bool isBalanced, int maxDepth) GetMaxDepth(TreeNode? node)
         {
-            if (node == null) return 0;
+            if (node == null) return (true, 0);
 
-            var left = 1 + CheckDepth(node.left);
-            var right = 1 + CheckDepth(node.right);
+            var left = GetMaxDepth(node.left);
+            var right = GetMaxDepth(node.right);
 
-            if (DepthDifference > 1) return 0;
-            DepthDifference = Math.Max(Math.Abs(left - right), DepthDifference);
-            return Math.Max(left, right);
+            if (!left.isBalanced) return (false, 0);
+            if (!right.isBalanced) return (false, 0);
+            if (Math.Abs(left.maxDepth - right.maxDepth) > 1) return (false, 0);
+
+            return (true, 1 + Math.Max(left.maxDepth, right.maxDepth));
         }
     }
 }
