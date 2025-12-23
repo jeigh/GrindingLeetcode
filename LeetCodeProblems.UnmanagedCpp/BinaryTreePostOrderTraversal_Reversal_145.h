@@ -5,7 +5,7 @@
 #include <algorithm>
 
 // solved 2025-12-20
-class BinaryTreePostOrderTraversal_Reversal_CPP_145 : public BinaryTreePostOrderTraversal_145 {
+class BinaryTreePostOrderTraversal_Reversal_145 : public BinaryTreePostOrderTraversal_145 {
 public:
     inline std::vector<int> postorderTraversal(TreeNode* root) override
     {
