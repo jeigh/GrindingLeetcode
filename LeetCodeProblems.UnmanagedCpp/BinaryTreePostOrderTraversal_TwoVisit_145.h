@@ -4,7 +4,7 @@
 #include <stack>
 
 // solved 2025-12-20
-class BinaryTreePostOrderTraversal_TwoVisit_CPP_145 : public BinaryTreePostOrderTraversal_145 {
+class BinaryTreePostOrderTraversal_TwoVisit_145 : public BinaryTreePostOrderTraversal_145 {
 public:
     inline std::vector<int> postorderTraversal(TreeNode* root) override
     {
