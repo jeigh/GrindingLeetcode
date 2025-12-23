@@ -1,7 +1,7 @@
 #include "gtest/gtest.h"
 #include "TreeNode.h"
-#include "BinaryTreePostOrderTraversal_Reversal_CPP_145.h"
-#include "BinaryTreePostOrderTraversal_TwoVisit_CPP_145.h"
+#include "BinaryTreePostOrderTraversal_Reversal_145.h"
+#include "BinaryTreePostOrderTraversal_TwoVisit_145.h"
 #include <queue>
 
 // Tree-specific helper functions (defined here to avoid header ordering issues)
@@ -112,20 +112,18 @@ namespace TreeHelpers {
 
 using namespace TreeHelpers;
 
-// Test fixture for BinaryTreePostOrderTraversal_Reversal_CPP_145
-class BinaryTreePostOrderTraversal_Reversal_CPP_145_Tests : public ::testing::Test {
+class BinaryTreePostOrderTraversal_Reversal_145_Tests : public ::testing::Test {
 protected:
-    BinaryTreePostOrderTraversal_Reversal_CPP_145 solution;
+    BinaryTreePostOrderTraversal_Reversal_145 solution;
 
     void TearDown() override {
         // Cleanup is handled by FreeTree in each test
     }
 };
 
-// Test fixture for BinaryTreePostOrderTraversal_TwoVisit_CPP_145
-class BinaryTreePostOrderTraversal_TwoVisit_CPP_145_Tests : public ::testing::Test {
+class BinaryTreePostOrderTraversal_TwoVisit_145_Tests : public ::testing::Test {
 protected:
-    BinaryTreePostOrderTraversal_TwoVisit_CPP_145 solution;
+    BinaryTreePostOrderTraversal_TwoVisit_145 solution;
 
     void TearDown() override {
         // Cleanup is handled by FreeTree in each test
@@ -134,8 +132,8 @@ protected:
 
 // Macro to define the same test for both implementations
 #define DEFINE_TEST_FOR_BOTH(TestName, TestBody) \
-    TEST_F(BinaryTreePostOrderTraversal_Reversal_CPP_145_Tests, TestName) TestBody \
-    TEST_F(BinaryTreePostOrderTraversal_TwoVisit_CPP_145_Tests, TestName) TestBody
+    TEST_F(BinaryTreePostOrderTraversal_Reversal_145_Tests, TestName) TestBody \
+    TEST_F(BinaryTreePostOrderTraversal_TwoVisit_145_Tests, TestName) TestBody
 
 #pragma region LeetCode Examples
 

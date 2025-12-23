@@ -8,7 +8,6 @@
     <ClCompile Include="ReorderList_143_Tests.cpp">
       <Filter>Medium</Filter>
     </ClCompile>
-    <ClCompile Include="ReverseList_206_Tests.cpp" />
     <ClCompile Include="RemoveNthNodeFromLinkedList_19_Tests.cpp">
       <Filter>Medium</Filter>
     </ClCompile>
@@ -18,8 +17,18 @@
     <ClCompile Include="ReverseLinkedListII_92_Tests.cpp">
       <Filter>Medium</Filter>
     </ClCompile>
-    <ClCompile Include="BinaryTreeInorderTraversal_94_Tests.cpp" />
-    <ClCompile Include="BinaryTreePostOrderTraversal_145_Tests.cpp" />
+    <ClCompile Include="BinaryTreeInorderTraversal_94_Tests.cpp">
+      <Filter>Easy</Filter>
+    </ClCompile>
+    <ClCompile Include="BinaryTreePostOrderTraversal_145_Tests.cpp">
+      <Filter>Easy</Filter>
+    </ClCompile>
+    <ClCompile Include="DiameterOfBinaryTree_543_Tests.cpp">
+      <Filter>Easy</Filter>
+    </ClCompile>
+    <ClCompile Include="ReverseList_206_Tests.cpp">
+      <Filter>Easy</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestHelpers.h" />
@@ -30,6 +39,9 @@
   <ItemGroup>
     <Filter Include="Medium">
       <UniqueIdentifier>{c4b7c91e-b09a-4d5f-9295-2e52d5090b4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Easy">
+      <UniqueIdentifier>{62be9105-a65a-4291-8d1d-645731619b35}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
