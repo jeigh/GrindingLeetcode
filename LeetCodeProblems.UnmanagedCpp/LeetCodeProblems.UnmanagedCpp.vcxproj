@@ -144,8 +144,11 @@
     <ClInclude Include="BinaryTreeInorderTraversal_Recursion_94.h" />
     <ClInclude Include="BinaryTreeInorderTraversal_Stack_94.h" />
     <ClInclude Include="BinaryTreePostOrderTraversal_145.h" />
-    <ClInclude Include="BinaryTreePostOrderTraversal_Reversal_CPP_145.h" />
-    <ClInclude Include="BinaryTreePostOrderTraversal_TwoVisit_CPP_145.h" />
+    <ClInclude Include="BinaryTreePostOrderTraversal_Reversal_145.h" />
+    <ClInclude Include="BinaryTreePostOrderTraversal_TwoVisit_145.h" />
+    <ClInclude Include="DiameterOfBinaryTree_543.h" />
+    <ClInclude Include="DiameterOfBinaryTree_Recursive_543.h" />
+    <ClInclude Include="DiameterOfBinaryTree_Stack_543.h" />
     <ClInclude Include="ListNode.h" />
     <ClInclude Include="RemoveNthNodeFromLinkedList_19.h" />
     <ClInclude Include="ReorderList_143.h" />
