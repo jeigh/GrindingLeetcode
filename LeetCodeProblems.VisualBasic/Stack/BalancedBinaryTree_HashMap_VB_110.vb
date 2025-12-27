@@ -30,7 +30,7 @@ Public Class BalancedBinaryTree_HashMap_VB_110
                 If Math.Abs(leftDepth - rightDepth) > 1 Then Return False
 
                 hashMap(peeked) = Math.Max(leftDepth, rightDepth) + 1
-                End If
+            End If
         End While
 
         Return True
