@@ -29,6 +29,7 @@
     <ClCompile Include="ReverseList_206_Tests.cpp">
       <Filter>Easy</Filter>
     </ClCompile>
+    <ClCompile Include="SameTree_100_Tests.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestHelpers.h" />
