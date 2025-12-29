@@ -77,5 +77,8 @@
     <ClCompile Include="MiddleOfLinkedList_876.h">
       <Filter>Header Files\LinkedList</Filter>
     </ClCompile>
+    <ClCompile Include="SameTree_Stack_100.h">
+      <Filter>Header Files\Tree</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
