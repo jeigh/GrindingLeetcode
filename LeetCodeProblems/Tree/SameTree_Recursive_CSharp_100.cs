@@ -1,8 +1,9 @@
-﻿using LeetCodeProblems.Shared;
+﻿using LeetCodeProblems.Interfaces.Easy;
+using LeetCodeProblems.Shared;
 
 namespace LeetCodeProblems.CSharp.Tree
 {
-    public class IsSameTree_CSharp_110
+    public class SameTree_Recursive_CSharp_100 : ISameTree_100
     {
         // time complexity: O(n), space complexity: O(h),
         // where n is the number of nodes in both trees, and h is the height of both trees.
