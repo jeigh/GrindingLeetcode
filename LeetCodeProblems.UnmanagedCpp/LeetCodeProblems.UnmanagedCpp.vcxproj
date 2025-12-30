@@ -155,6 +155,7 @@
     <ClInclude Include="ReverseLinkedListII_MoveToFront_92.h" />
     <ClInclude Include="ReverseLinkedListII_ReversalAndReconnect_92.h" />
     <ClInclude Include="ReverseList_206.h" />
+    <ClInclude Include="SubtreeOfAnotherTree_Recursive_572.h" />
     <ClInclude Include="TreeNode.h" />
   </ItemGroup>
   <ItemGroup>

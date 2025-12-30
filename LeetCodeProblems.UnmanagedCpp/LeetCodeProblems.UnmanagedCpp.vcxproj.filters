@@ -72,6 +72,9 @@
     <ClInclude Include="ListNode.h">
       <Filter>Header Files\Shared</Filter>
     </ClInclude>
+    <ClInclude Include="SubtreeOfAnotherTree_Recursive_572.h">
+      <Filter>Header Files\Tree</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="MiddleOfLinkedList_876.h">
