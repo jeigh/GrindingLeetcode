@@ -30,6 +30,7 @@
       <Filter>Easy</Filter>
     </ClCompile>
     <ClCompile Include="SameTree_100_Tests.cpp" />
+    <ClCompile Include="SubtreeOfAnotherTree_572_Tests.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestHelpers.h" />
