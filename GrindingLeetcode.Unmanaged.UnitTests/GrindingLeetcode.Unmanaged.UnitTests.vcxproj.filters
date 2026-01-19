@@ -31,6 +31,7 @@
     </ClCompile>
     <ClCompile Include="SameTree_100_Tests.cpp" />
     <ClCompile Include="SubtreeOfAnotherTree_572_Tests.cpp" />
+    <ClCompile Include="DeleteNodeInABST_450_Tests.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestHelpers.h" />
