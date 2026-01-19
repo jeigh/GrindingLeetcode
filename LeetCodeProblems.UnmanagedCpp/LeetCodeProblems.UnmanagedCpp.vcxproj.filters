@@ -75,6 +75,18 @@
     <ClInclude Include="SubtreeOfAnotherTree_Recursive_572.h">
       <Filter>Header Files\Tree</Filter>
     </ClInclude>
+    <ClInclude Include="DeleteNodeInABST_RecursiveSuccessorDeletion_450.h">
+      <Filter>Header Files\Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="DeleteNodeInABST_DirectSuccessorPromotion_450.h">
+      <Filter>Header Files\Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="DeleteNodeInABST_450.h">
+      <Filter>Header Files\Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="DeleteNodeInABST_LeftTreeDemotion_450.h">
+      <Filter>Header Files\Tree</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="MiddleOfLinkedList_876.h">

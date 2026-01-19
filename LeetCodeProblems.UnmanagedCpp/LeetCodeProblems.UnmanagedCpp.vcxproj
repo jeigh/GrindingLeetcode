@@ -146,6 +146,10 @@
     <ClInclude Include="BinaryTreePostOrderTraversal_145.h" />
     <ClInclude Include="BinaryTreePostOrderTraversal_Reversal_145.h" />
     <ClInclude Include="BinaryTreePostOrderTraversal_TwoVisit_145.h" />
+    <ClInclude Include="DeleteNodeInABST_450.h" />
+    <ClInclude Include="DeleteNodeInABST_DirectSuccessorPromotion_450.h" />
+    <ClInclude Include="DeleteNodeInABST_LeftTreeDemotion_450.h" />
+    <ClInclude Include="DeleteNodeInABST_RecursiveSuccessorDeletion_450.h" />
     <ClInclude Include="DiameterOfBinaryTree_543.h" />
     <ClInclude Include="DiameterOfBinaryTree_Recursive_543.h" />
     <ClInclude Include="DiameterOfBinaryTree_Stack_543.h" />
