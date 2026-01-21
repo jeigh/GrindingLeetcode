@@ -47,4 +47,3 @@ export class DeleteNodeInABST_DirectSuccessorPromotion_450 implements IDeleteNod
         return successor;
     }
 }
-
