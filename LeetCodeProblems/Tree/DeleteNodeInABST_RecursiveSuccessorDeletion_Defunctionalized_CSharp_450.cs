@@ -23,20 +23,18 @@ namespace LeetCodeProblems.CSharp.Tree
 
             public TreeNode Recurse()
             {
-                DeleteFrame frame = null;
                 if (_node == null) return null;
 
                 if (_key > _node.val)
-                {
-                    frame = new DeleteFrame(_node.right, _key);
-                    _node.right = frame.Recurse();
+                {                    
+                    _node.right = new DeleteFrame(_node.right, _key).Recurse();
                     return _node;
                 }
 
                 if (_key < _node.val)
                 {
-                    frame = new DeleteFrame(_node.left, _key);
-                    _node.left = frame.Recurse();
+                    
+                    _node.left = new DeleteFrame(_node.left, _key).Recurse();
                     return _node;
                 }
 
@@ -46,9 +44,7 @@ namespace LeetCodeProblems.CSharp.Tree
                 var successor = FindMinNode(_node.right);
                 
                 _node.val = successor.val;
-                
-                frame = new DeleteFrame(_node.right, _node.val);
-                _node.right = frame.Recurse();
+                _node.right = new DeleteFrame(_node.right, _node.val).Recurse();
 
                 return _node;
             }
