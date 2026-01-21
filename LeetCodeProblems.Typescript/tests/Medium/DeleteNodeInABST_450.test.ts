@@ -1,12 +1,14 @@
 import { TreeNode } from '../../src/Shared/TreeNode';
 import { DeleteNodeInABST_DirectSuccessorPromotion_450 } from '../../src/Medium/DeleteNodeInABST_DirectSuccessorPromotion_450';
 import { DeleteNodeInABST_LeftTreeDemotion_450 } from '../../src/Medium/DeleteNodeInABST_LeftTreeDemotion_450';
+import { DeleteNodeInABST_RightTreePromotion_450 } from '../../src/Medium/DeleteNodeInABST_RightTreePromotion_450';
 import { IDeleteNodeInABST_450 } from '../../src/Interfaces/Medium/IDeleteNodeInABST_450';
 
 describe('DeleteNodeInABST_450', () => {
     const implementations: [IDeleteNodeInABST_450, string][] = [
         [new DeleteNodeInABST_DirectSuccessorPromotion_450(), 'Direct Successor Promotion'],
-        [new DeleteNodeInABST_LeftTreeDemotion_450(), 'Left Tree Demotion']
+        [new DeleteNodeInABST_LeftTreeDemotion_450(), 'Left Tree Demotion'],
+        [new DeleteNodeInABST_RightTreePromotion_450(), 'Right Tree Promotion']
     ];
 
     /**
