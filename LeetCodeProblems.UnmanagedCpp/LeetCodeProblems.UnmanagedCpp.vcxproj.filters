@@ -20,7 +20,13 @@
       <UniqueIdentifier>{e1abc16c-b221-46b6-98ee-dccfb607f8c3}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header Files\Shared">
+      <UniqueIdentifier>{819ec710-228c-4d2d-81a7-5582325b3f90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Shared\Types">
       <UniqueIdentifier>{42ef419f-39eb-4cb5-a6f6-f7ce8f0d8fa4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Shared\Interfaces">
+      <UniqueIdentifier>{d56b9c13-9001-4ae5-aebf-98ae0f9d799c}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -54,23 +60,17 @@
     <ClInclude Include="BinaryTreePostOrderTraversal_TwoVisit_145.h">
       <Filter>Header Files\Tree</Filter>
     </ClInclude>
-    <ClInclude Include="DiameterOfBinaryTree_543.h">
-      <Filter>Header Files\Shared</Filter>
-    </ClInclude>
     <ClInclude Include="DiameterOfBinaryTree_Recursive_543.h">
       <Filter>Header Files\Tree</Filter>
     </ClInclude>
     <ClInclude Include="DiameterOfBinaryTree_Stack_543.h">
       <Filter>Header Files\Tree</Filter>
     </ClInclude>
-    <ClInclude Include="BinaryTreePostOrderTraversal_145.h">
-      <Filter>Header Files\Shared</Filter>
-    </ClInclude>
     <ClInclude Include="TreeNode.h">
-      <Filter>Header Files\Shared</Filter>
+      <Filter>Header Files\Shared\Types</Filter>
     </ClInclude>
     <ClInclude Include="ListNode.h">
-      <Filter>Header Files\Shared</Filter>
+      <Filter>Header Files\Shared\Types</Filter>
     </ClInclude>
     <ClInclude Include="SubtreeOfAnotherTree_Recursive_572.h">
       <Filter>Header Files\Tree</Filter>
@@ -81,10 +81,28 @@
     <ClInclude Include="DeleteNodeInABST_DirectSuccessorPromotion_450.h">
       <Filter>Header Files\Tree</Filter>
     </ClInclude>
-    <ClInclude Include="DeleteNodeInABST_450.h">
-      <Filter>Header Files\Shared</Filter>
-    </ClInclude>
     <ClInclude Include="DeleteNodeInABST_LeftTreeDemotion_450.h">
+      <Filter>Header Files\Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="QuadNode.h">
+      <Filter>Header Files\Shared\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="BinaryTreePostOrderTraversal_145.h">
+      <Filter>Header Files\Shared\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="DeleteNodeInABST_450.h">
+      <Filter>Header Files\Shared\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="DiameterOfBinaryTree_543.h">
+      <Filter>Header Files\Shared\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="ConstructQuadTree_Recursive_Optimized_427.h">
+      <Filter>Header Files\Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="ConstructQuadTree_427.h">
+      <Filter>Header Files\Shared\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="ConstructQuadTree_Recursive_427.h">
       <Filter>Header Files\Tree</Filter>
     </ClInclude>
   </ItemGroup>
