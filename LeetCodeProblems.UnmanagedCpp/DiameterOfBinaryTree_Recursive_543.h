@@ -1,8 +1,8 @@
 #pragma once
 
-#include "DiameterOfBinaryTree_543.h"
+#include "AbstractDiameterOfBinaryTree_543.h"
 
-class DiameterOfBinaryTree_Recursive_543 : public DiameterOfBinaryTree_543 {
+class DiameterOfBinaryTree_Recursive_543 : public AbstractDiameterOfBinaryTree_543 {
 private:
     inline int GetDepth(TreeNode* node, int& diameter)
     {

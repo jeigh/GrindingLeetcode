@@ -87,22 +87,37 @@
     <ClInclude Include="QuadNode.h">
       <Filter>Header Files\Shared\Types</Filter>
     </ClInclude>
-    <ClInclude Include="BinaryTreePostOrderTraversal_145.h">
+    <ClInclude Include="AbstractBinaryTreePostOrderTraversal_145.h">
       <Filter>Header Files\Shared\Interfaces</Filter>
     </ClInclude>
-    <ClInclude Include="DeleteNodeInABST_450.h">
+    <ClInclude Include="AbstractDeleteNodeInABST_450.h">
       <Filter>Header Files\Shared\Interfaces</Filter>
     </ClInclude>
-    <ClInclude Include="DiameterOfBinaryTree_543.h">
+    <ClInclude Include="AbstractDiameterOfBinaryTree_543.h">
       <Filter>Header Files\Shared\Interfaces</Filter>
     </ClInclude>
     <ClInclude Include="ConstructQuadTree_Recursive_Optimized_427.h">
       <Filter>Header Files\Tree</Filter>
     </ClInclude>
-    <ClInclude Include="ConstructQuadTree_427.h">
+    <ClInclude Include="AbstractConstructQuadTree_427.h">
       <Filter>Header Files\Shared\Interfaces</Filter>
     </ClInclude>
     <ClInclude Include="ConstructQuadTree_Recursive_427.h">
+      <Filter>Header Files\Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractConstructBinaryTreeFromPreorderAndInorder_105.h">
+      <Filter>Header Files\Shared\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="ConstructBinaryTreeFromPreorderAndInorder_RecursiveOptimized_105.h">
+      <Filter>Header Files\Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="ConstructBinaryTreeFromPreorderAndInorderTraversal_SixParams_105.h">
+      <Filter>Header Files\Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="ConstructBinaryTreeFromPreorderAndInorderTraversal_IterativeOptimized_105.h">
+      <Filter>Header Files\Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="ConstructBinaryTreeFromPreorderAndInorderTraversal_HashMap_105.h">
       <Filter>Header Files\Tree</Filter>
     </ClInclude>
   </ItemGroup>
@@ -113,5 +128,8 @@
     <ClCompile Include="SameTree_Stack_100.h">
       <Filter>Header Files\Tree</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="CMakeLists.txt" />
   </ItemGroup>
 </Project>

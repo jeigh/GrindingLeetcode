@@ -1,11 +1,11 @@
 #pragma once
 
-#include "BinaryTreePostOrderTraversal_145.h"
+#include "AbstractBinaryTreePostOrderTraversal_145.h"
 #include <stack>
 #include <algorithm>
 
 // solved 2025-12-20
-class BinaryTreePostOrderTraversal_Reversal_145 : public BinaryTreePostOrderTraversal_145 {
+class BinaryTreePostOrderTraversal_Reversal_145 : public AbstractBinaryTreePostOrderTraversal_145 {
 public:
     inline std::vector<int> postorderTraversal(TreeNode* root) override
     {

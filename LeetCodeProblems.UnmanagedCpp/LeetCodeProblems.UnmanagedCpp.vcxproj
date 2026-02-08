@@ -143,19 +143,24 @@
     <ClInclude Include="AddTwoNumbers_2.h" />
     <ClInclude Include="BinaryTreeInorderTraversal_Recursion_94.h" />
     <ClInclude Include="BinaryTreeInorderTraversal_Stack_94.h" />
-    <ClInclude Include="BinaryTreePostOrderTraversal_145.h" />
+    <ClInclude Include="AbstractBinaryTreePostOrderTraversal_145.h" />
     <ClInclude Include="BinaryTreePostOrderTraversal_Reversal_145.h" />
     <ClInclude Include="BinaryTreePostOrderTraversal_TwoVisit_145.h" />
-    <ClInclude Include="DeleteNodeInABST_450.h" />
+    <ClInclude Include="AbstractDeleteNodeInABST_450.h" />
+    <ClInclude Include="ConstructBinaryTreeFromPreorderAndInorderTraversal_HashMap_105.h" />
+    <ClInclude Include="ConstructBinaryTreeFromPreorderAndInorderTraversal_IterativeOptimized_105.h" />
+    <ClInclude Include="ConstructBinaryTreeFromPreorderAndInorderTraversal_SixParams_105.h" />
     <ClInclude Include="DeleteNodeInABST_DirectSuccessorPromotion_450.h" />
     <ClInclude Include="DeleteNodeInABST_LeftTreeDemotion_450.h" />
     <ClInclude Include="DeleteNodeInABST_RecursiveSuccessorDeletion_450.h" />
-    <ClInclude Include="DiameterOfBinaryTree_543.h" />
+    <ClInclude Include="AbstractDiameterOfBinaryTree_543.h" />
     <ClInclude Include="DiameterOfBinaryTree_Recursive_543.h" />
     <ClInclude Include="DiameterOfBinaryTree_Stack_543.h" />
-    <ClInclude Include="ConstructQuadTree_427.h" />
+    <ClInclude Include="AbstractConstructQuadTree_427.h" />
     <ClInclude Include="ConstructQuadTree_Recursive_Optimized_427.h" />
     <ClInclude Include="ConstructQuadTree_Recursive_427.h" />
+    <ClInclude Include="AbstractConstructBinaryTreeFromPreorderAndInorder_105.h" />
+    <ClInclude Include="ConstructBinaryTreeFromPreorderAndInorder_RecursiveOptimized_105.h" />
     <ClInclude Include="QuadNode.h" />
     <ClInclude Include="ListNode.h" />
     <ClInclude Include="RemoveNthNodeFromLinkedList_19.h" />
@@ -169,6 +174,9 @@
   <ItemGroup>
     <ClCompile Include="MiddleOfLinkedList_876.h" />
     <ClCompile Include="SameTree_Stack_100.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="CMakeLists.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

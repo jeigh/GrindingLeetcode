@@ -1,10 +1,10 @@
 #pragma once
 #include "QuadNode.h"
 #include <vector>
-#include "ConstructQuadTree_427.h"
+#include "AbstractConstructQuadTree_427.h"
 
 
-class ConstructQuadTree_Recursive_427 : public ConstructQuadTree_427 {
+class ConstructQuadTree_Recursive_427 : public AbstractConstructQuadTree_427 {
 public:
     inline QuadNode* construct(std::vector<std::vector<int>>& grid) { 
         return recurse(grid, grid.size(), 0, 0);

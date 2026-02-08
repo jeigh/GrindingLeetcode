@@ -1,10 +1,10 @@
 #pragma once
 
-#include "DeleteNodeInABST_450.h"
+#include "AbstractDeleteNodeInABST_450.h"
 #include <stack>
 #include <algorithm>
 
-class DeleteNodeInABST_DirectSuccessorPromotion_450 : public  DeleteNodeInABST_450 {
+class DeleteNodeInABST_DirectSuccessorPromotion_450 : public  AbstractDeleteNodeInABST_450 {
 public:
     inline TreeNode* deleteNode(TreeNode* root, int k) {
         if (root == nullptr) return nullptr;

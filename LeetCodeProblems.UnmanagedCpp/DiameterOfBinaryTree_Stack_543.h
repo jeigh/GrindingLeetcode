@@ -1,12 +1,12 @@
 #pragma once
 
-#include "DiameterOfBinaryTree_543.h"
+#include "AbstractDiameterOfBinaryTree_543.h"
 #include <stack>
 #include <unordered_map>
 #include <utility>
 
 // solved 2025-12-23 
-class DiameterOfBinaryTree_Stack_543 : public DiameterOfBinaryTree_543 {
+class DiameterOfBinaryTree_Stack_543 : public AbstractDiameterOfBinaryTree_543 {
 public:
     inline int diameterOfBinaryTree(TreeNode* root) override
     {
