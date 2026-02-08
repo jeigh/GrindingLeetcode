@@ -107,6 +107,7 @@
     <ClCompile Include="AddTwoNumbers_2_Tests.cpp" />
     <ClCompile Include="BinaryTreeInorderTraversal_94_Tests.cpp" />
     <ClCompile Include="BinaryTreePostOrderTraversal_145_Tests.cpp" />
+    <ClCompile Include="ConstructBinaryTreeFromPreorderAndInorder_105_Tests.cpp" />
     <ClCompile Include="ConstructQuadTree_427_Tests.cpp" />
     <ClCompile Include="DeleteNodeInABST_450_Tests.cpp" />
     <ClCompile Include="DiameterOfBinaryTree_543_Tests.cpp" />
@@ -126,6 +127,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="CMakeLists.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

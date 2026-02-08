@@ -41,6 +41,9 @@
     <ClCompile Include="ConstructQuadTree_427_Tests.cpp">
       <Filter>Medium</Filter>
     </ClCompile>
+    <ClCompile Include="ConstructBinaryTreeFromPreorderAndInorder_105_Tests.cpp">
+      <Filter>Medium</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestHelpers.h" />
@@ -55,5 +58,8 @@
     <Filter Include="Easy">
       <UniqueIdentifier>{62be9105-a65a-4291-8d1d-645731619b35}</UniqueIdentifier>
     </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="CMakeLists.txt" />
   </ItemGroup>
 </Project>
