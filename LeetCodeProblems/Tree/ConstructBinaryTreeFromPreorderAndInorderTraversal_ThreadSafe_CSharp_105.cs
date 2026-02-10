@@ -6,7 +6,7 @@ namespace LeetCodeProblems.CSharp.Tree
 {
     using index = int;
 
-    public class ConstructBinaryTreeFromPreorderAndInorderTraversal_SixParams_CSharp_105 : IConstructBinaryTreeFromPreorderAndInorderTraversal_105
+    public class ConstructBinaryTreeFromPreorderAndInorderTraversal_ThreadSafe_CSharp_105 : IConstructBinaryTreeFromPreorderAndInorderTraversal_105
     {
         public TreeNode BuildTree(int[] preorder, int[] inorder) =>
             BuildTree(preorder, inorder, 0, preorder.Length, 0, inorder.Length);

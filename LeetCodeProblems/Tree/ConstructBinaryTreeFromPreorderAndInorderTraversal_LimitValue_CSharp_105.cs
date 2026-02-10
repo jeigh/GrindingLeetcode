@@ -3,8 +3,9 @@ using LeetCodeProblems.Shared;
 
 namespace LeetCodeProblems.CSharp.Tree
 {
-    using index = System.Int32;
-    public class ConstructBinaryTreeFromPreorderAndInorderTraversal_FiveParams_CSharp_105 : IConstructBinaryTreeFromPreorderAndInorderTraversal_105
+    using index = int;
+
+    public class ConstructBinaryTreeFromPreorderAndInorderTraversal_LimitValue_CSharp_105 : IConstructBinaryTreeFromPreorderAndInorderTraversal_105
     {      
         public TreeNode BuildTree(int[] preorder, int[] inorder)
         {
