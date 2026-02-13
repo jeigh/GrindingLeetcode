@@ -2,7 +2,7 @@
 Imports LeetCodeProblems.Shared
 Imports index = System.Int32
 
-Public Class ConstructBinaryTreeFromPreorderAndInorderTraversal_HashMap_VB_105
+Public Class ConstructBinaryTreeFromPreorderAndInorderTraversal_RecursiveHashMap_VB_105
     Implements IConstructBinaryTreeFromPreorderAndInorderTraversal_105
 
     Public Function BuildTree(preorder() As Integer, inorder() As Integer) As TreeNode Implements IConstructBinaryTreeFromPreorderAndInorderTraversal_105.BuildTree
@@ -14,13 +14,15 @@ Public Class ConstructBinaryTreeFromPreorderAndInorderTraversal_HashMap_VB_105
 
     Private Function BuildSubtree(preorder() As Integer, hashmap As Dictionary(Of Integer, index), inorderLeft As index, inorderRight As index, ByRef preorderIndex As index) As TreeNode
         If inorderLeft > inorderRight Then Return Nothing
+        If preorderIndex >= preorder.Length Then Return Nothing
+
         Dim currentValue = preorder(preorderIndex)
         preorderIndex = preorderIndex + 1
 
         Dim midIndex = hashmap(currentValue)
 
         Dim left = BuildSubtree(preorder, hashmap, inorderLeft, midIndex - 1, preorderIndex)
-        Dim right = BuildSubtree(preorder, hashmap, midIndex - 1, inorderRight, preorderIndex)
+        Dim right = BuildSubtree(preorder, hashmap, midIndex + 1, inorderRight, preorderIndex)
 
         Return New TreeNode(currentValue, left, right)
     End Function
