@@ -107,6 +107,7 @@
     <ClCompile Include="AddTwoNumbers_2_Tests.cpp" />
     <ClCompile Include="BinaryTreeInorderTraversal_94_Tests.cpp" />
     <ClCompile Include="BinaryTreePostOrderTraversal_145_Tests.cpp" />
+    <ClCompile Include="ConstructBinaryTreeFromInorderAndPostorderTraversal_106_Tests.cpp" />
     <ClCompile Include="ConstructBinaryTreeFromPreorderAndInorder_105_Tests.cpp" />
     <ClCompile Include="ConstructQuadTree_427_Tests.cpp" />
     <ClCompile Include="DeleteNodeInABST_450_Tests.cpp" />

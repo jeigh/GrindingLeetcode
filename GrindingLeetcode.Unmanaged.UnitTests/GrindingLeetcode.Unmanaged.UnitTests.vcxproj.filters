@@ -44,6 +44,9 @@
     <ClCompile Include="ConstructBinaryTreeFromPreorderAndInorder_105_Tests.cpp">
       <Filter>Medium</Filter>
     </ClCompile>
+    <ClCompile Include="ConstructBinaryTreeFromInorderAndPostorderTraversal_106_Tests.cpp">
+      <Filter>Medium</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestHelpers.h" />
