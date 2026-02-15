@@ -120,6 +120,15 @@
     <ClInclude Include="ConstructBinaryTreeFromPreorderAndInorderTraversal_HashMap_105.h">
       <Filter>Header Files\Tree</Filter>
     </ClInclude>
+    <ClInclude Include="AbstractConstructBinaryTreeFromInorderAndPostorderTraversal_106.h">
+      <Filter>Header Files\Shared\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="ConstructBinaryTreeFromInorderAndPostorderTraversal_RecursiveLimit_106.h">
+      <Filter>Header Files\Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="ConstructBinaryTreeFromInorderAndPostorderTraversal_RecursiveHashmap_106.h">
+      <Filter>Header Files\Tree</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="MiddleOfLinkedList_876.h">

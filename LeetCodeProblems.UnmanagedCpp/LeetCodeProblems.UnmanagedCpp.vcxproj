@@ -147,6 +147,8 @@
     <ClInclude Include="BinaryTreePostOrderTraversal_Reversal_145.h" />
     <ClInclude Include="BinaryTreePostOrderTraversal_TwoVisit_145.h" />
     <ClInclude Include="AbstractDeleteNodeInABST_450.h" />
+    <ClInclude Include="AbstractConstructBinaryTreeFromInorderAndPostorderTraversal_106.h" />
+    <ClInclude Include="ConstructBinaryTreeFromInorderAndPostorderTraversal_RecursiveHashmap_106.h" />
     <ClInclude Include="ConstructBinaryTreeFromPreorderAndInorderTraversal_HashMap_105.h" />
     <ClInclude Include="ConstructBinaryTreeFromPreorderAndInorderTraversal_IterativeOptimized_105.h" />
     <ClInclude Include="ConstructBinaryTreeFromPreorderAndInorderTraversal_SixParams_105.h" />
@@ -161,6 +163,7 @@
     <ClInclude Include="ConstructQuadTree_Recursive_427.h" />
     <ClInclude Include="AbstractConstructBinaryTreeFromPreorderAndInorder_105.h" />
     <ClInclude Include="ConstructBinaryTreeFromPreorderAndInorder_RecursiveOptimized_105.h" />
+    <ClInclude Include="ConstructBinaryTreeFromInorderAndPostorderTraversal_RecursiveLimit_106.h" />
     <ClInclude Include="QuadNode.h" />
     <ClInclude Include="ListNode.h" />
     <ClInclude Include="RemoveNthNodeFromLinkedList_19.h" />
