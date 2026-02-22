@@ -109,6 +109,7 @@
     <ClCompile Include="BinaryTreePostOrderTraversal_145_Tests.cpp" />
     <ClCompile Include="ConstructBinaryTreeFromInorderAndPostorderTraversal_106_Tests.cpp" />
     <ClCompile Include="ConstructBinaryTreeFromPreorderAndInorder_105_Tests.cpp" />
+    <ClCompile Include="ConstructBinaryTreeFromPreorderAndPostorderTraversal_889_Tests.cpp" />
     <ClCompile Include="ConstructQuadTree_427_Tests.cpp" />
     <ClCompile Include="DeleteNodeInABST_450_Tests.cpp" />
     <ClCompile Include="DiameterOfBinaryTree_543_Tests.cpp" />

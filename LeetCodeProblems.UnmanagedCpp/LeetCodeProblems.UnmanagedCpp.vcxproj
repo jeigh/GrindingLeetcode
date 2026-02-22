@@ -140,6 +140,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="AbstractConstructBinaryTreeFromPreorderAndPostorderTraversal_889.h" />
     <ClInclude Include="AddTwoNumbers_2.h" />
     <ClInclude Include="BinaryTreeInorderTraversal_Recursion_94.h" />
     <ClInclude Include="BinaryTreeInorderTraversal_Stack_94.h" />
@@ -152,6 +153,8 @@
     <ClInclude Include="ConstructBinaryTreeFromPreorderAndInorderTraversal_HashMap_105.h" />
     <ClInclude Include="ConstructBinaryTreeFromPreorderAndInorderTraversal_IterativeOptimized_105.h" />
     <ClInclude Include="ConstructBinaryTreeFromPreorderAndInorderTraversal_SixParams_105.h" />
+    <ClInclude Include="ConstructBinaryTreeFromPreorderAndPostorderTraversal_RecursiveCononical.h" />
+    <ClInclude Include="ConstructBinaryTreeFromPreorderAndPostorderTraversal_RecursiveCononical_889.h" />
     <ClInclude Include="DeleteNodeInABST_DirectSuccessorPromotion_450.h" />
     <ClInclude Include="DeleteNodeInABST_LeftTreeDemotion_450.h" />
     <ClInclude Include="DeleteNodeInABST_RecursiveSuccessorDeletion_450.h" />
