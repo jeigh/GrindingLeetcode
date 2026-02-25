@@ -1,7 +1,8 @@
-﻿namespace LeetCodeProblems
-{
+﻿using LeetCodeProblems.Interfaces.Easy;
 
-    public class KthLargestUsingPriorityQueue
+namespace LeetCodeProblems.CSharp.Queue
+{
+    public class KthLargestInAStream_PriorityQueue_CSharp_703 : IKthLargestElementInAStream_703
     {
         // surprisingly, this solution actually runs slower than the List version on leetcode dispite having better time complexity.
         // time complexity: O(n log k) space: O(log k) 
@@ -9,9 +10,9 @@
         private PriorityQueue<int, int> items = new PriorityQueue<int, int>();
         private readonly int _k;
 
-        public KthLargestUsingPriorityQueue(int k, int[] nums)
+        public KthLargestInAStream_PriorityQueue_CSharp_703(int k, int[] nums)
         {
-            this._k = k;
+            _k = k;
             foreach (var item in nums)
             {
                 Add(item);
