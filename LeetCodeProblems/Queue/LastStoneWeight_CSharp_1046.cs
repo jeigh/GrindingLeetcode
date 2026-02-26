@@ -1,6 +1,8 @@
-﻿namespace LeetCodeProblems
+﻿using LeetCodeProblems.Interfaces.Easy;
+
+namespace LeetCodeProblems.CSharp.Queue
 {
-    public class LastStoneWeightSolution
+    public class LastStoneWeight_CSharp_1046 : ILastStoneWeight_1046
     {
         // time complexity: O(n log n),  space complexity: O(n)
         private PriorityQueue<int, int> _weights = new PriorityQueue<int, int>();
