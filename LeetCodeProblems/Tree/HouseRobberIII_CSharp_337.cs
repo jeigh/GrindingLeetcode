@@ -7,17 +7,9 @@ namespace LeetCodeProblems.CSharp.Tree
     {
         public int Rob(TreeNode root)
         {
-            return 0;
-        }
-
-        /*
-         *             int leftValue = Rob(root.left);
-            int rightValue = Rob(root.left);
-
-            (int withRoot, int withoutRoot) = RobSubTree(root);
+            var (withRoot, withoutRoot) = RobSubTree(root);
             return Math.Max(withRoot, withoutRoot);
-         * 
-         */
+        }
 
         private (int withRoot, int withoutRoot) RobSubTree(TreeNode node)
         {
@@ -30,8 +22,6 @@ namespace LeetCodeProblems.CSharp.Tree
             int withoutRoot = Math.Max(left.withRoot, left.withoutRoot) + Math.Max(right.withRoot, right.withoutRoot);
 
             return (withRoot, withoutRoot);
-
-
         }
     }
 }
