@@ -10,6 +10,7 @@ namespace GrindingLeetCode.UnitTests.Medium
         public static IEnumerable<object[]> GetImplementations()
         {
             yield return new object[] { new ConstructBinarySearchTreeFromPreorderTraversal_CSharp_1008(), "C# Implementation" };
+            yield return new object[] { new LeetCodeProblems.VisualBasic.ConstructBinaryTreeFromPreorderTraversal_VB_1008(), "VB Implementation" };
         }
 
         #region Helper Methods
@@ -552,7 +553,7 @@ namespace GrindingLeetCode.UnitTests.Medium
 
             // Act
             var result = solution.BstFromPreorder(preorder);
-
+             
             // Assert
             AssertTreeStructure(result, preorder, solutionName);
             Assert.AreEqual(11, CountNodes(result), $"Node count for {solutionName}");
