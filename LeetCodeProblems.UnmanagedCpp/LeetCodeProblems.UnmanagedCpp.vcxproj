@@ -141,6 +141,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="AbstractConstructBinaryTreeFromPreorderAndPostorderTraversal_889.h" />
+    <ClInclude Include="AbstractTaskScheduler_621.h" />
     <ClInclude Include="AddTwoNumbers_2.h" />
     <ClInclude Include="BinaryTreeInorderTraversal_Recursion_94.h" />
     <ClInclude Include="BinaryTreeInorderTraversal_Stack_94.h" />
@@ -174,6 +175,9 @@
     <ClInclude Include="ReverseLinkedListII_MoveToFront_92.h" />
     <ClInclude Include="ReverseLinkedListII_ReversalAndReconnect_92.h" />
     <ClInclude Include="ReverseList_206.h" />
+    <ClInclude Include="TaskScheduler_Math_621.h" />
+    <ClInclude Include="TaskScheduler_Greedy_621.h" />
+    <ClInclude Include="TaskScheduler_TwoQueues_621.h" />
     <ClInclude Include="SubtreeOfAnotherTree_Recursive_572.h" />
     <ClInclude Include="TreeNode.h" />
   </ItemGroup>

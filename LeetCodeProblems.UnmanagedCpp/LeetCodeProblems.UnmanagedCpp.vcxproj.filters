@@ -28,6 +28,9 @@
     <Filter Include="Header Files\Shared\Interfaces">
       <UniqueIdentifier>{d56b9c13-9001-4ae5-aebf-98ae0f9d799c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\Queue">
+      <UniqueIdentifier>{7ecaceb5-9934-4b5d-963f-facb276ef08a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ReverseList_206.h">
@@ -136,7 +139,19 @@
       <Filter>Header Files\Tree</Filter>
     </ClInclude>
     <ClInclude Include="ConstructBinaryTreeFromPreorderAndPostorderTraversal_RecursiveCononical_889.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractTaskScheduler_621.h">
+      <Filter>Header Files\Shared\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="TaskScheduler_Greedy_621.h">
+      <Filter>Header Files\Queue</Filter>
+    </ClInclude>
+    <ClInclude Include="TaskScheduler_Math_621.h">
+      <Filter>Header Files\Queue</Filter>
+    </ClInclude>
+    <ClInclude Include="TaskScheduler_TwoQueues_621.h">
+      <Filter>Header Files\Queue</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
