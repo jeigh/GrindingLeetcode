@@ -12,7 +12,11 @@
     "test:coverage": "jest --coverage",
     "clean": "rimraf dist"
   },
-  "keywords": ["leetcode", "algorithms", "data-structures"],
+  "keywords": [
+    "leetcode",
+    "algorithms",
+    "data-structures"
+  ],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
