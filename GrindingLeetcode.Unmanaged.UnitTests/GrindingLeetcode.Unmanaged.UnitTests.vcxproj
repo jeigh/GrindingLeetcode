@@ -120,6 +120,8 @@
     <ClCompile Include="ReverseLinkedListII_92_Tests.cpp" />
     <ClCompile Include="ReverseList_206_Tests.cpp" />
     <ClCompile Include="SameTree_100_Tests.cpp" />
+    <ClCompile Include="Subsets_78_Tests.cpp" />
+    <ClCompile Include="SubsetXORSum_1863_Tests.cpp" />
     <ClCompile Include="SubtreeOfAnotherTree_572_Tests.cpp" />
     <ClCompile Include="TaskScheduler_621_Tests.cpp" />
   </ItemGroup>

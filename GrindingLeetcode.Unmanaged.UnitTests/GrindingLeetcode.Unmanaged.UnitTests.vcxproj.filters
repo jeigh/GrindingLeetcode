@@ -53,6 +53,12 @@
     <ClCompile Include="ConstructBinaryTreeFromPreorderAndPostorderTraversal_889_Tests.cpp">
       <Filter>Medium</Filter>
     </ClCompile>
+    <ClCompile Include="SubsetXORSum_1863_Tests.cpp">
+      <Filter>Easy</Filter>
+    </ClCompile>
+    <ClCompile Include="Subsets_78_Tests.cpp">
+      <Filter>Medium</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestHelpers.h" />
