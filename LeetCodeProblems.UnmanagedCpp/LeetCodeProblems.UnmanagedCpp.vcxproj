@@ -140,6 +140,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="AbstractCombinationSum2_40.h" />
     <ClInclude Include="AbstractConstructBinaryTreeFromPreorderAndPostorderTraversal_889.h" />
     <ClInclude Include="AbstractSubsets_78.h" />
     <ClInclude Include="AbstractSubsetXORSum_1863.h" />
@@ -152,6 +153,9 @@
     <ClInclude Include="BinaryTreePostOrderTraversal_TwoVisit_145.h" />
     <ClInclude Include="AbstractDeleteNodeInABST_450.h" />
     <ClInclude Include="AbstractConstructBinaryTreeFromInorderAndPostorderTraversal_106.h" />
+    <ClInclude Include="CombinationSum2_BacktrackingHashmap_40.h" />
+    <ClInclude Include="CombinationSum2_BacktrackingOptimal_40.h" />
+    <ClInclude Include="CombinationSum2_Backtracking_40.h" />
     <ClInclude Include="ConstructBinaryTreeFromInorderAndPostorderTraversal_RecursiveHashmap_106.h" />
     <ClInclude Include="ConstructBinaryTreeFromPreorderAndInorderTraversal_HashMap_105.h" />
     <ClInclude Include="ConstructBinaryTreeFromPreorderAndInorderTraversal_IterativeOptimized_105.h" />
