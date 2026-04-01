@@ -59,6 +59,9 @@
     <ClCompile Include="Subsets_78_Tests.cpp">
       <Filter>Medium</Filter>
     </ClCompile>
+    <ClCompile Include="CombinationSum2_40_Tests.cpp">
+      <Filter>Medium</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestHelpers.h" />
