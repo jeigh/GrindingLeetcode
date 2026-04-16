@@ -189,6 +189,18 @@
     <ClInclude Include="CombinationSum2_BacktrackingOptimal_40.h">
       <Filter>Header Files\Backtracking</Filter>
     </ClInclude>
+    <ClInclude Include="Permutations_Backtracking_46.h">
+      <Filter>Header Files\Backtracking</Filter>
+    </ClInclude>
+    <ClInclude Include="Permutations_Iterative_46.h">
+      <Filter>Header Files\Backtracking</Filter>
+    </ClInclude>
+    <ClInclude Include="Permutations_Recursive_46.h">
+      <Filter>Header Files\Backtracking</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractPermutations_46.h">
+      <Filter>Header Files\Shared\Interfaces</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="MiddleOfLinkedList_876.h">

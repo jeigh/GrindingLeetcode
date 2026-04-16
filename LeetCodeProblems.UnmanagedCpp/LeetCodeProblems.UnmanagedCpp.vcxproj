@@ -141,6 +141,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="AbstractCombinationSum2_40.h" />
+    <ClInclude Include="AbstractPermutations_46.h" />
+    <ClInclude Include="Permutations_Backtracking_46.h" />
+    <ClInclude Include="Permutations_Recursive_46.h" />
+    <ClInclude Include="Permutations_Iterative_46.h" />
     <ClInclude Include="AbstractConstructBinaryTreeFromPreorderAndPostorderTraversal_889.h" />
     <ClInclude Include="AbstractSubsets_78.h" />
     <ClInclude Include="AbstractSubsetXORSum_1863.h" />

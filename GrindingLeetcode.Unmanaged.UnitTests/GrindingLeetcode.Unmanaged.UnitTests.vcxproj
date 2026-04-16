@@ -108,6 +108,7 @@
     <ClCompile Include="BinaryTreeInorderTraversal_94_Tests.cpp" />
     <ClCompile Include="BinaryTreePostOrderTraversal_145_Tests.cpp" />
     <ClCompile Include="CombinationSum2_40_Tests.cpp" />
+    <ClCompile Include="Permutations_46_Tests.cpp" />
     <ClCompile Include="ConstructBinaryTreeFromInorderAndPostorderTraversal_106_Tests.cpp" />
     <ClCompile Include="ConstructBinaryTreeFromPreorderAndInorder_105_Tests.cpp" />
     <ClCompile Include="ConstructBinaryTreeFromPreorderAndPostorderTraversal_889_Tests.cpp" />

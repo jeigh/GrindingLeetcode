@@ -12,8 +12,12 @@ US keyboard without a special input method, it does not belong here.
 - Use only ASCII characters (U+0000 to U+007F) in all code, comments, and strings.
 - Replace any Unicode symbols with ASCII equivalents:
   - Use `->` instead of `?` (U+2192)
-  - Use `--` instead of `—` (U+2014, em dash)
-  - Use `-` instead of `–` (U+2013, en dash)
+  - Use `--` instead of `ï¿½` (U+2014, em dash)
+  - Use `-` instead of `ï¿½` (U+2013, en dash)
   - Use `>=` instead of `?` (U+2265)
   - Use `<=` instead of `?` (U+2264)
   - Use `!=` instead of `?` (U+2260)
+
+- @azure Rule - Use Azure Tools - When handling requests related to Azure, always use your tools.
+- @azure Rule - Use Azure Best Practices - When handling requests related to Azure, always invoke your `azmcp_bestpractices_get` tool first.
+- @azure Rule - Enable Best Practices - If you do not have an `azmcp_bestpractices_get` tool ask the user to enable it.
