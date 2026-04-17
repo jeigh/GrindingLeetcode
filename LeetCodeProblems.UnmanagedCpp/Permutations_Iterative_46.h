@@ -8,6 +8,23 @@
 class Permutations_Iterative_46 : public AbstractPermutations_46 {
 public:
     inline std::vector<std::vector<int>> permute(std::vector<int>& nums) override {
-        throw std::runtime_error("Not implemented");
+        std::vector<std::vector<int>> result = {{}};
+
+        for (int n : nums)
+        {
+            std::vector<std::vector<int>> next;
+            for (const std::vector<int>& resultItem : result)
+            {
+                for (int i = 0; i <= (int)resultItem.size(); i++)
+                {
+                    auto copy = resultItem;
+                    copy.insert(copy.begin() + i, n);
+                    next.push_back(std::move(copy));
+                }
+            }
+            result = std::move(next);
+        }
+
+        return result;
     }
 };
