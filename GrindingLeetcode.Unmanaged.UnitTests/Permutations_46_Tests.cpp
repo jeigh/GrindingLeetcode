@@ -6,6 +6,9 @@
 #include <algorithm>
 #include <vector>
 
+// Tests disabled while restarting backtracking curriculum.
+#if 0
+
 // Normalizes results for order-independent comparison:
 // sorts each inner permutation, then sorts the collection of permutations.
 static std::vector<std::vector<int>> NormalizePerms(std::vector<std::vector<int>> result) {
@@ -217,3 +220,5 @@ TEST_F(Permutations_Iterative_46_Tests, Permute_NegativeNumbers_ReturnsAllPermut
 }
 
 #pragma endregion
+
+#endif // disabled backtracking tests

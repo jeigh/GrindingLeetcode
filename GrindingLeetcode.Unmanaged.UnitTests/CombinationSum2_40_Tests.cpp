@@ -5,6 +5,9 @@
 #include <algorithm>
 #include <vector>
 
+// Tests disabled while restarting backtracking curriculum.
+#if 0
+
 // Normalizes results for order-independent comparison:
 // sorts each inner combination, then sorts the collection of combinations.
 static std::vector<std::vector<int>> Normalize(std::vector<std::vector<int>> result) {
@@ -108,5 +111,7 @@ TEST_F(CombinationSum2_BacktrackingHashmap_40_Tests, EachCandidateUsedOnlyOnce_R
 }
 
 #pragma endregion
+
+#endif // disabled backtracking tests
 
 

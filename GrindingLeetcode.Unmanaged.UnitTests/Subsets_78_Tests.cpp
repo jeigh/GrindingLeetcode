@@ -6,6 +6,9 @@
 #include <algorithm>
 #include <vector>
 
+// Tests disabled while restarting backtracking curriculum.
+#if 0
+
 // Normalizes a result for order-independent comparison:
 // sorts each inner subset, then sorts the collection of subsets.
 static std::vector<std::vector<int>> Normalize(std::vector<std::vector<int>> result) {
@@ -175,3 +178,5 @@ TEST_F(Subsets_ForLoop_78_Tests, Subsets_NoDuplicateSubsets) {
 }
 
 #pragma endregion
+
+#endif // disabled backtracking tests

@@ -20,11 +20,12 @@ namespace GrindingLeetCode.UnitTests.Easy
     {
         public static IEnumerable<object[]> GetImplementations()
         {
-            yield return new object[] { new SubsetXORSum_CSharp_Recursive_1863(), "C# Recursive Implementation" };
-            yield return new object[] { new SubsetXORSum_CSharp_Iterative_1863(), "C# Iterative Implementation" };
+            //yield return new object[] { new SubsetXORSum_CSharp_Recursive_1863(), "C# Recursive Implementation" };
+            //yield return new object[] { new SubsetXORSum_CSharp_Iterative_1863(), "C# Iterative Implementation" };
 
-            yield return new object[] { new SubsetXorSum_Recursive_VB_1863(), "VB Recursive Implementation" };
-            yield return new object[] { new SubsetXorSum_Iterative_VB_1863(), "VB Iterative Implementation" };
+            //yield return new object[] { new SubsetXorSum_Recursive_VB_1863(), "VB Recursive Implementation" };
+            //yield return new object[] { new SubsetXorSum_Iterative_VB_1863(), "VB Iterative Implementation" };
+            yield break;
         }
 
         #region LeetCode Examples

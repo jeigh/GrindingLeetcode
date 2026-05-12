@@ -16,15 +16,16 @@ namespace GrindingLeetCode.UnitTests.Medium
     {
         public static IEnumerable<object[]> GetImplementations()
         {
-            yield return new object[] { new Permutations_Recursive_CSharp_46(), "C# Backtracking" };
-            yield return new object[] { new Permutations_Iterative_CSharp_46(), "C# Iterative" };
-            yield return new object[] { new Permutations_BacktrackingOptimized_CSharp_46(), "C# Optimized" };
-            yield return new object[] { new Permutations_LinqQuery_CSharp_46(), "C# LINQ Query" };
+            //yield return new object[] { new Permutations_Recursive_CSharp_46(), "C# Backtracking" };
+            //yield return new object[] { new Permutations_Iterative_CSharp_46(), "C# Iterative" };
+            //yield return new object[] { new Permutations_BacktrackingOptimized_CSharp_46(), "C# Optimized" };
+            //yield return new object[] { new Permutations_LinqQuery_CSharp_46(), "C# LINQ Query" };
 
-            yield return new object[] { new Permutations_Recursive_VB_46(), "VB Recursive" };
-            yield return new object[] { new Permutations_Iterative_VB_46(), "VB Iterative" };
-            yield return new object[] { new Permutations_BacktrackingOptimized_VB_46(), "VB Optimized" };
-            yield return new object[] { new Permutations_LinqQuery_VB_46(), "VB LINQ Query" };
+            //yield return new object[] { new Permutations_Recursive_VB_46(), "VB Recursive" };
+            //yield return new object[] { new Permutations_Iterative_VB_46(), "VB Iterative" };
+            //yield return new object[] { new Permutations_BacktrackingOptimized_VB_46(), "VB Optimized" };
+            //yield return new object[] { new Permutations_LinqQuery_VB_46(), "VB LINQ Query" };
+            yield break;
         }
 
         // Normalizes results for order-independent comparison:

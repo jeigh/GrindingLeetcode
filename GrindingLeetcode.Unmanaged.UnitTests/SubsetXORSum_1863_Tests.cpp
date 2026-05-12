@@ -2,6 +2,9 @@
 #include "SubsetXORSum_Recursive_1863.h"
 #include "SubsetXORSum_Iterative_1863.h"
 
+// Tests disabled while restarting backtracking curriculum.
+#if 0
+
 // Test fixture for SubsetXORSum_Recursive_1863
 class SubsetXORSum_Recursive_1863_Tests : public ::testing::Test {
 protected:
@@ -91,3 +94,5 @@ TEST_F(SubsetXORSum_Iterative_1863_Tests, SubsetXORSum_TwoIdenticalElements_Retu
 }
 
 #pragma endregion
+
+#endif // disabled backtracking tests

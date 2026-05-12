@@ -18,13 +18,14 @@ namespace GrindingLeetCode.UnitTests.Medium
     {
         public static IEnumerable<object[]> GetImplementations()
         {
-            yield return new object[] { new CombinationSum2_Recursive_Backtracking_CSharp_40(), "C# Recursive Backtracking" };
-            yield return new object[] { new CombinationSum2_BacktrackingHashmap_CSharp_40(), "C# Backtracking Hashmap" };
-            yield return new object[] { new CombinationSum2_BacktrackingOptimal_CSharp_40(), "C# Backtracking Optimal" };
+            //yield return new object[] { new CombinationSum2_Recursive_Backtracking_CSharp_40(), "C# Recursive Backtracking" };
+            //yield return new object[] { new CombinationSum2_BacktrackingHashmap_CSharp_40(), "C# Backtracking Hashmap" };
+            //yield return new object[] { new CombinationSum2_BacktrackingOptimal_CSharp_40(), "C# Backtracking Optimal" };
 
-            yield return new object[] { new CombinationSumII_Recursive_VB_40(), "VB Recursive" };
-            yield return new object[] { new CombinationSumII_BacktrackingHashmap_VB_40(), "VB Backtracking Hashmap" };
-            yield return new object[] { new CombinationSumII_RecursiveOptimized_VB_40(), "VB Backtracking Optimized" };
+            //yield return new object[] { new CombinationSumII_Recursive_VB_40(), "VB Recursive" };
+            //yield return new object[] { new CombinationSumII_BacktrackingHashmap_VB_40(), "VB Backtracking Hashmap" };
+            //yield return new object[] { new CombinationSumII_RecursiveOptimized_VB_40(), "VB Backtracking Optimized" };
+            yield break;
         }
 
         // Normalizes results for order-independent comparison:
