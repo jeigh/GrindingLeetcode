@@ -6,25 +6,32 @@ namespace LeetCodeProblems.CSharp.Backtracking
     {
         public int SubsetXORSum(int[] nums)
         {
-            var stack = new Stack<(int i, int total)>();
-            var sumOfXors = 0;
-            stack.Push((0, 0));
+            var stack = new Stack<(int, List<int>)>();
+            
+            stack.Push((0, new List<int>()));
+            
+            var xors = new List<int>();
 
             while (stack.Count > 0)
             {
-                (int i, int total) = stack.Pop();
+                (int i, List<int> currentList) = stack.Pop();
 
-                if (i == nums.Length)
+                if (i != nums.Length)
                 {
-                    sumOfXors += total;
+                    currentList.Add(nums[i]);
+                    stack.Push((i + 1, currentList.ToList()));
+                    currentList.RemoveAt(currentList.Count - 1);
+
+                    stack.Push((i + 1, currentList.ToList()));
                     continue;
                 }
 
-                stack.Push((i + 1, total ^ nums[i]));
-                stack.Push((i + 1, total));
+                int xor = 0;
+                foreach (var v in currentList) xor ^= v;
+                xors.Add(xor);
             }
 
-            return sumOfXors;
+            return xors.Sum();
         }
     }
 }

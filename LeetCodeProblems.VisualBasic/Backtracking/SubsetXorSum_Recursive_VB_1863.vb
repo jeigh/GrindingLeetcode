@@ -5,16 +5,23 @@ Namespace Backtracking
         Implements ISubsetXORSum_1863
 
         Public Function SubsetXORSum(nums() As Integer) As Integer Implements ISubsetXORSum_1863.SubsetXORSum
-            Return SubsetXORSum(nums, 0, 0)
+            Dim xors As New List(Of Integer)()
+
+            Recurse(nums, 0, 0, xors)
+
+            Return xors.Sum()
         End Function
 
-        Public Function SubsetXORSum(nums() As Integer, i As Integer, runningTotal As Integer) As Integer
-            If i >= nums.Length Then Return runningTotal
+        Private Sub Recurse(nums() As Integer, i As Integer, xored As Integer, xors As List(Of Integer))
+            If (i = nums.Length) Then
+                xors.Add(xored)
+                Return
+            End If
 
-            Dim withCurrent = SubsetXORSum(nums, i + 1, runningTotal Xor nums(i))
-            Dim withoutCurrent = SubsetXORSum(nums, i + 1, runningTotal)
-            Return withCurrent + withoutCurrent
-        End Function
+            Recurse(nums, i + 1, xored Xor nums(i), xors)
+            Recurse(nums, i + 1, xored, xors)
+        End Sub
+
     End Class
 
 End Namespace
