@@ -6,27 +6,27 @@ namespace LeetCodeProblems.CSharp.Backtracking
     {
         public IList<IList<int>> Subsets(int[] nums)
         {
-            var results = new List<IList<int>>();
-            var subset = new List<int>();
+            var result = new List<IList<int>>();
 
-            Subsets(nums, 0, results, subset);
-            return results;
+            recurse(nums, 0, new List<int>(), result);
+
+            return result;
         }
 
-        public void Subsets(int[] nums, int i, IList<IList<int>> result, List<int> currentSubset)
+        public void recurse(int[] nums, int i, List<int> currentList, List<IList<int>> result)
         {
-            if (i >= nums.Length) 
-            { 
-                result.Add(currentSubset.ToList());
-                return; 
+            if (i != nums.Length)
+            {
+                currentList.Add(nums[i]);
+                recurse(nums, i + 1, currentList, result);
+                currentList.RemoveAt(currentList.Count - 1);
+
+                recurse(nums, i + 1, currentList, result);
+                return;
             }
-
-            currentSubset.Add(nums[i]);
-            Subsets(nums, i + 1, result, currentSubset);
-
-            currentSubset.RemoveAt(currentSubset.Count - 1);
-            Subsets(nums, i + 1, result, currentSubset);
+            result.Add(currentList.ToList());
         }
+
     }
 
 

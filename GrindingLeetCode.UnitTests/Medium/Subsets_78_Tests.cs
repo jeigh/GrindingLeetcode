@@ -17,13 +17,13 @@ namespace GrindingLeetCode.UnitTests.Medium
     {
         public static IEnumerable<object[]> GetImplementations()
         {
-            //yield return new object[] { new Subsets_CSharp_Recursive_78(), "C# Recursive Implementation" };
-            //yield return new object[] { new Subsets_CSharp_Iterative_78(), "C# Iterative Implementation" };
-            //yield return new object[] { new Subsets_CSharp_ForLoop_78(), "C# ForLoops Implementation" };
+            yield return new object[] { new Subsets_CSharp_Recursive_78(), "C# Recursive Implementation" };
+            yield return new object[] { new Subsets_CSharp_Iterative_78(), "C# Iterative Implementation" };
+            yield return new object[] { new Subsets_CSharp_ForLoop_78(), "C# ForLoops Implementation" };
 
-            //yield return new object[] { new Subsets_VB_Recursive_78(), "VB Recursive Implementation" };
-            //yield return new object[] { new Subsets_VB_Iterative_78(), "VB Iterative Implementation" };
-            //yield return new object[] { new Subsets_VB_ForLoop_78(), "VB ForLoops Implementation" };
+            yield return new object[] { new Subsets_VB_Recursive_78(), "VB Recursive Implementation" };
+            yield return new object[] { new Subsets_VB_Iterative_78(), "VB Iterative Implementation" };
+            yield return new object[] { new Subsets_VB_ForLoop_78(), "VB ForLoops Implementation" };
             yield break;
         }
 
