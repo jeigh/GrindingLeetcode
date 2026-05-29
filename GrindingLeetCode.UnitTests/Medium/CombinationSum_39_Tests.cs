@@ -17,11 +17,11 @@ namespace GrindingLeetCode.UnitTests.Medium
     {
         public static IEnumerable<object[]> GetImplementations()
         {
-            //yield return new object[] { new CombinationSum_Recursive_CSharp_39(), "C# Recursive Implementation" };
-            //yield return new object[] { new CombinationSum_Iterative_CSharp_39(), "C# Iterative_Implementation" };
+            yield return new object[] { new CombinationSum_Recursive_CSharp_39(), "C# Recursive Implementation" };
+            yield return new object[] { new CombinationSum_Iterative_CSharp_39(), "C# Iterative_Implementation" };
 
-            //yield return new object[] { new CombinationSum_Recursive_VB_39(), "VB Recursive Implementation" };
-            //yield return new object[] { new CombinationSum_Iterative_VB_39(), "VB Iterative_Implementation" };
+            yield return new object[] { new CombinationSum_Recursive_VB_39(), "VB Recursive Implementation" };
+            yield return new object[] { new CombinationSum_Iterative_VB_39(), "VB Iterative_Implementation" };
             yield break;
         }
 

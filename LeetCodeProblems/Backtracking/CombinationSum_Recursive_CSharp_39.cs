@@ -9,26 +9,28 @@ namespace LeetCodeProblems.CSharp.Backtracking
         {
             var result = new List<IList<int>>();
 
-            recurse(candidates, 0, new List<int>(), 0, result, target);
+            recurse(candidates, 0, target, new List<int>(), result);
 
             return result;
         }
 
-        private void recurse(int[] candidates, int leftPointer, List<int> current, int total, List<IList<int>> result, int target) 
-        { 
-            if (total == target)
+        public void recurse(int[] candidates, int i, int target, List<int> currentList, List<IList<int>> result)
+        {
+
+            if (currentList.Sum() == target && i == candidates.Length)
             {
-                result.Add(current.ToList());
+                result.Add(currentList.ToList());
                 return;
             }
 
-            if (leftPointer >= candidates.Length || total > target) return;
+            if (currentList.Sum() > target || i == candidates.Length) return;
 
-            current.Add(candidates[leftPointer]);
-            recurse(candidates, leftPointer, current, total + candidates[leftPointer], result, target);
+            currentList.Add(candidates[i]);
+            recurse(candidates, i, target, currentList, result);
+            currentList.RemoveAt(currentList.Count - 1);
 
-            current.RemoveAt(current.Count - 1);
-            recurse(candidates, leftPointer + 1, current, total, result, target);
+            recurse(candidates, i + 1, target, currentList, result);
         }
+
     }
 }

@@ -18,7 +18,7 @@ namespace GrindingLeetCode.UnitTests.Medium
     {
         public static IEnumerable<object[]> GetImplementations()
         {
-            //yield return new object[] { new CombinationSum2_Recursive_Backtracking_CSharp_40(), "C# Recursive Backtracking" };
+            yield return new object[] { new CombinationSum2_Recursive_Backtracking_CSharp_40(), "C# Recursive Backtracking" };
             //yield return new object[] { new CombinationSum2_BacktrackingHashmap_CSharp_40(), "C# Backtracking Hashmap" };
             //yield return new object[] { new CombinationSum2_BacktrackingOptimal_CSharp_40(), "C# Backtracking Optimal" };
 
