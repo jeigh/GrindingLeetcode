@@ -2,6 +2,7 @@
 
 #include <vector>
 #include <algorithm>
+#include <numeric>
 #include "AbstractCombinationSum2_40.h"
 
 class CombinationSum2_Backtracking_40 : public AbstractCombinationSum2_40 {
@@ -11,36 +12,29 @@ public:
 
         std::vector<std::vector<int>> result;
         std::vector<int> currentList;
-        backtrack(candidates, target, currentList, 0, 0, result);
+
+        recurse(candidates, target, 0, currentList, result);
 
         return result;
     }
 
 private:
-    inline void backtrack(
-        std::vector<int>& candidates, 
-        int target, 
-        std::vector<int>& currentList, 
-        int currentListSum, 
-        int i, 
-        std::vector<std::vector<int>>& result)
+    inline void recurse(std::vector<int>& candidates, int target, int i, std::vector<int>& currentList, std::vector<std::vector<int>>& result) 
     {
-        if (currentListSum == target) 
-        {            
+        auto sum = std::reduce(candidates.begin(), candidates.end());
+        if (sum == target) 
+        {
             result.push_back(currentList);
             return;
         }
-        if (i >= candidates.size()) return;
+        if (sum > target || i > candidates.size()) return;
 
-        auto currentValue = candidates[i];
-        currentList.push_back(currentValue);
-        currentListSum += currentValue;
-        backtrack(candidates, target, currentList, currentListSum, i + 1, result);
-        currentListSum -= currentValue;
+        currentList.push_back(candidates[i]);
+        recurse(candidates, target, i + 1, currentList, result);
         currentList.pop_back();
-        
-        while (i + 1 < candidates.size() && candidates[i + 1] == currentValue) i += 1;
 
-        backtrack(candidates, target, currentList, currentListSum, i + 1, result);
+        while (i + 1 < candidates.size() && candidates[i] == candidates[i + 1]) i++;
+
+        recurse(candidates, target, i + 1, currentList, result);
     }
 };

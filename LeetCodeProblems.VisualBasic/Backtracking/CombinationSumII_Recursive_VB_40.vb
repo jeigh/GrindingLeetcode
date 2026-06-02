@@ -8,33 +8,31 @@ Namespace Backtracking
             Dim result = New List(Of IList(Of Integer))()
             Array.Sort(candidates)
 
-            Recurse(candidates, target, 0, New List(Of Integer)(), 0, result)
+            recurse(candidates, target, 0, New List(Of Integer), result)
+
             Return result
         End Function
 
-        Public Sub Recurse(candidates() As Integer, target As Integer, i As Integer, currentList As IList(Of Integer), currentListSum As Integer, result As IList(Of IList(Of Integer)))
-
-            If (currentListSum = target) Then
+        Public Sub recurse(candidates() As Integer, target As Integer, i As Integer, currentList As List(Of Integer), result As List(Of IList(Of Integer)))
+            If currentList.Sum() = target Then
                 result.Add(currentList.ToList())
                 Return
             End If
+            If i = candidates.Length OrElse currentList.Sum() > target Then Return
 
-            If (i >= candidates.Length OrElse currentListSum > target) Then Return
+            currentList.Add(candidates(i))
+            recurse(candidates, target, i + 1, currentList, result)
+            currentList.RemoveAt(currentList.Count() - 1)
 
-            Dim currentElementValue = candidates(i)
-
-            currentList.Add(currentElementValue)
-            currentListSum += currentElementValue
-            Recurse(candidates, target, i + 1, currentList, currentListSum, result)
-
-            currentList.RemoveAt(currentList.Count - 1)
-            currentListSum -= currentElementValue
-
-            While (i + 1 < candidates.Length AndAlso currentElementValue = candidates(i + 1))
+            While i + 1 < candidates.Length AndAlso candidates(i) = candidates(i + 1)
                 i += 1
             End While
-            Recurse(candidates, target, i + 1, currentList, currentListSum, result)
+
+            recurse(candidates, target, i + 1, currentList, result)
         End Sub
+
+
+
     End Class
 
 End Namespace

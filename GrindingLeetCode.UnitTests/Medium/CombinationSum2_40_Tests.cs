@@ -22,7 +22,7 @@ namespace GrindingLeetCode.UnitTests.Medium
             //yield return new object[] { new CombinationSum2_BacktrackingHashmap_CSharp_40(), "C# Backtracking Hashmap" };
             //yield return new object[] { new CombinationSum2_BacktrackingOptimal_CSharp_40(), "C# Backtracking Optimal" };
 
-            //yield return new object[] { new CombinationSumII_Recursive_VB_40(), "VB Recursive" };
+            yield return new object[] { new CombinationSumII_Recursive_VB_40(), "VB Recursive" };
             //yield return new object[] { new CombinationSumII_BacktrackingHashmap_VB_40(), "VB Backtracking Hashmap" };
             //yield return new object[] { new CombinationSumII_RecursiveOptimized_VB_40(), "VB Backtracking Optimized" };
             yield break;
