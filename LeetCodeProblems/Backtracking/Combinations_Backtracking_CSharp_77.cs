@@ -7,25 +7,29 @@ namespace LeetCodeProblems.CSharp.Backtracking
         public IList<IList<int>> Combine(int n, int k)
         {
             var result = new List<IList<int>>();
-            backtrack(n, k, 1, new List<int>(), result);
-            return result;
+
+            if (k == 0) return result;
+
+            Recurse(n, k, 1, new List<int>(), result);
+
+            return result;            
         }
 
-        public void backtrack(int n, int k, int i, IList<int> currentList, IList<IList<int>> result)
+        private void Recurse(int maxNum, int combinationSize, int i, List<int> current, List<IList<int>> result)
         {
-            if (i > n )
+
+            if (current.Count == combinationSize)
             {
-                if (currentList.Count == k) result.Add(currentList.ToList());
+                result.Add(current.ToList());
                 return;
             }
+            if (i > maxNum) return;
 
-            if (currentList.Count > n) return;
+            current.Add(i);
+            Recurse(maxNum, combinationSize, i + 1, current, result);
+            current.RemoveAt(current.Count - 1);
 
-            currentList.Add(i);
-            backtrack(n, k, i + 1, currentList, result);
-            currentList.RemoveAt(currentList.Count - 1);
-            
-            backtrack(n, k, i + 1, currentList, result);
+            Recurse(maxNum, combinationSize, i + 1, current, result);            
         }
     }
 }
