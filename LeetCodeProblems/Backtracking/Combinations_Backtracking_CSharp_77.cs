@@ -25,7 +25,7 @@ namespace LeetCodeProblems.CSharp.Backtracking
             }
             if (i > maxNum) return;
 
-            current.Add(i);
+            current.Add(i); 
             Recurse(maxNum, combinationSize, i + 1, current, result);
             current.RemoveAt(current.Count - 1);
 

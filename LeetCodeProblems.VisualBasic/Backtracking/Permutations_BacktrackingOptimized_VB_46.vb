@@ -1,35 +1,40 @@
+Imports System.ComponentModel.DataAnnotations
 Imports LeetCodeProblems.Interfaces.Medium
 
 Namespace Backtracking
     Public Class Permutations_BacktrackingOptimized_VB_46
         Implements IPermutations_46
 
+        Private _result As List(Of IList(Of Integer))
+        Private _currentList As List(Of Integer)
+
         Public Function Permute(nums As Integer()) As IList(Of IList(Of Integer)) Implements IPermutations_46.Permute
-            Dim result As New List(Of IList(Of Integer))
-            Dim pick(nums.Length) As Boolean
+            _result = New List(Of IList(Of Integer))
+            _currentList = New List(Of Integer)()
+            Dim pick(nums.Length - 1) As Boolean
 
-            BackTrack(New List(Of Integer)(), nums, pick, result)
+            recurse(nums, pick)
 
-            Return result
+            Return _result
         End Function
 
-        Public Sub BackTrack(currentList As List(Of Integer), nums() As Integer, pick() As Boolean, result As List(Of IList(Of Integer)))
-            If (currentList.Count = nums.Length) Then
-                result.Add(currentList.ToList())
+        Public Sub recurse(nums As Integer(), ByRef pick As Boolean())
+            If _currentList.Count() = nums.Length Then
+                _result.Add(_currentList.ToList())
                 Return
             End If
 
-            For i = 0 To nums.Length - 1
-                If (Not pick(i)) Then
-                    currentList.Add(nums(i))
+            For i As Integer = 0 To nums.Length - 1 Step 1
+                If Not pick(i) Then
                     pick(i) = True
-                    BackTrack(currentList, nums, pick, result)
+                    _currentList.Add(nums(i))
+                    recurse(nums, pick)
+                    _currentList.RemoveAt(_currentList.Count - 1)
                     pick(i) = False
-                    currentList.RemoveAt(currentList.Count - 1)
                 End If
             Next
-
         End Sub
+
 
 
     End Class

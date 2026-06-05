@@ -4,30 +4,38 @@ namespace LeetCodeProblems.CSharp.Backtracking
 {
     public class Permutations_BacktrackingOptimized_CSharp_46 : IPermutations_46
     {
+        private List<IList<int>> _result;
+        private List<int> _currentList;
+        private bool[] _pick;
+
         public IList<IList<int>> Permute(int[] nums)
         {
-            var result = new List<IList<int>>();
-            backtrack(new List<int>(), nums, new bool[nums.Length], result);
-            return result;
+            _currentList = new List<int>();
+            _result = new List<IList<int>>();
+            _pick = new bool[nums.Length];
+
+            recurse(nums);
+
+            return _result;
         }
 
-        public void backtrack(List<int> perm, int[] nums, bool[] pick, List<IList<int>> result )
+        public void recurse(int[] nums)
         {
-            if (perm.Count == nums.Length)
+            if (_currentList.Count == nums.Length)
             {
-                result.Add(perm.ToList());
+                _result.Add(_currentList.ToList());
                 return;
             }
 
             for (int i = 0; i < nums.Length; i++)
             {
-                if (!pick[i])
+                if (!_pick[i])
                 {
-                    perm.Add(nums[i]);
-                    pick[i] = true;
-                    backtrack(perm, nums, pick, result);
-                    perm.RemoveAt(perm.Count - 1);
-                    pick[i] = false;
+                    _currentList.Add(nums[i]);
+                    _pick[i] = true;
+                    recurse(nums);
+                    _currentList.RemoveAt(_currentList.Count - 1);
+                    _pick[i] = false;
                 }
             }
         }
