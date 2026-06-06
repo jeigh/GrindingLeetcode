@@ -12,28 +12,27 @@ namespace LeetCodeProblems.CSharp.Backtracking
 
             Array.Sort(nums);
 
-            Backtrack(nums, 0, new List<int>(), result);
+            recurse(nums, 0, new List<int>(), result);
 
             return result;
         }
 
-        private void Backtrack(int[] nums, int i, List<int> currentSubset, List<IList<int>> result)
+        private void recurse(int[] nums, int i, List<int> currentList, List<IList<int>> result)
         {
             if (i == nums.Length)
             {
-                result.Add(currentSubset.ToList());
+                result.Add(currentList.ToList());
                 return;
             }
 
-            currentSubset.Add(nums[i]);
-            Backtrack(nums, i+1, currentSubset, result);
-            currentSubset.RemoveAt(currentSubset.Count - 1);
+            currentList.Add(nums[i]);
+            recurse(nums, i + 1, currentList, result);
+            currentList.RemoveAt(currentList.Count - 1);
 
-            while (i + 1 < nums.Length && nums[i] == nums[i+1]) i++;
+            while (i + 1 < nums.Length && nums[i + 1] == nums[i]) i++;
 
-            Backtrack(nums, i + 1, currentSubset, result);
-
+            recurse(nums, i + 1, currentList, result);
+            
         }
-
     }
 }

@@ -16,9 +16,8 @@ namespace GrindingLeetCode.UnitTests.Medium
     {
         public static IEnumerable<object[]> GetImplementations()
         {
-            //yield return new object[] { new SubsetsII_BacktrackingI_CSharp_90(), "C# Backtracking" };
-            //yield return new object[] { new SubsetsII_Iterative_CSharp_90(), "C# Iterative" };
-            //yield return new object[] { new SubsetsII_BitMask_CSharp_90(), "C# Bit Mask" };
+            yield return new object[] { new SubsetsII_BacktrackingI_CSharp_90(), "C# Backtracking" };
+            yield return new object[] { new SubsetsII_Iterative_CSharp_90(), "C# Iterative" };
             yield break;
         }
 
