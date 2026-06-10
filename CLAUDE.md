@@ -28,6 +28,8 @@ npm run test:watch
 ### C++ (Visual Studio only)
 Build and run tests via Visual Studio Test Explorer or VS Developer Command Prompt using MSBuild with the v143 toolset.
 
+**When creating a new C++ test file**, always add a corresponding `<ClCompile Include="YourFile_Tests.cpp" />` entry to `GrindingLeetcode.Unmanaged.UnitTests\GrindingLeetcode.Unmanaged.UnitTests.vcxproj`. Files not registered there will not appear in Test Explorer.
+
 ## Architecture
 
 The solution is organized into language-specific projects all targeting the same problem set:
