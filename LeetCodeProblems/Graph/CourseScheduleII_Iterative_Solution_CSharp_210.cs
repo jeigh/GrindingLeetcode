@@ -1,6 +1,6 @@
 using LeetCodeProblems.Interfaces.Medium;
 
-namespace LeetCodeProblems.CSharp.HashingOrArrays
+namespace LeetCodeProblems.CSharp.Graph
 {
     public class CourseScheduleII_Iterative_Solution_CSharp_210 : ICourseScheduleII_210
     {

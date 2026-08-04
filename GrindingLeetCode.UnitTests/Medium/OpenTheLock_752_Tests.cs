@@ -1,6 +1,6 @@
-using LeetCodeProblems.CSharp.HashingOrArrays;
+using LeetCodeProblems.CSharp.Graph;
 using LeetCodeProblems.Interfaces.Medium;
-using LeetCodeProblems.VisualBasic.HashingOrArrays;
+using LeetCodeProblems.VisualBasic.Graph;
 
 namespace GrindingLeetCode.UnitTests.Medium
 {

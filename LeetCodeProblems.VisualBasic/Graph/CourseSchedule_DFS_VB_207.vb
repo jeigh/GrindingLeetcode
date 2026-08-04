@@ -1,6 +1,6 @@
 Imports LeetCodeProblems.Interfaces.Medium
 
-Namespace HashingOrArrays
+Namespace Graph
     Public Class CourseSchedule_DFS_VB_207
         Implements ICourseSchedule_207
 

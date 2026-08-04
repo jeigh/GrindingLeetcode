@@ -1,7 +1,7 @@
 Imports LeetCodeProblems.Interfaces.Medium
 Imports LeetCodeProblems.Shared
 
-Namespace HashingOrArrays
+Namespace Graph
     Public Class CloneGraph_VB_133
         Implements ICloneGraph_133
 

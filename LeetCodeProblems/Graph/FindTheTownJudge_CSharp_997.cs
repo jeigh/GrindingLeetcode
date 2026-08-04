@@ -1,6 +1,6 @@
 using LeetCodeProblems.Interfaces.Easy;
 
-namespace LeetCodeProblems.CSharp.HashingOrArrays
+namespace LeetCodeProblems.CSharp.Graph
 {
     public class FindTheTownJudge_CSharp_997 : IFindTheTownJudge_997
     {

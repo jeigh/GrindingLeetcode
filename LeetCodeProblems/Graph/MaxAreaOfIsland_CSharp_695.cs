@@ -1,6 +1,6 @@
 using LeetCodeProblems.Interfaces.Medium;
 
-namespace LeetCodeProblems.CSharp.HashingOrArrays
+namespace LeetCodeProblems.CSharp.Graph
 {
     public class MaxAreaOfIsland_CSharp_695 : IMaxAreaOfIsland_695
     {

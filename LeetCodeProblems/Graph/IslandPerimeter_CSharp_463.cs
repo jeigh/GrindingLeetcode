@@ -1,7 +1,7 @@
 using LeetCodeProblems.HashingOrArrays;
 using LeetCodeProblems.Interfaces.Easy;
 
-namespace LeetCodeProblems.CSharp.HashingOrArrays
+namespace LeetCodeProblems.CSharp.Graph
 {
     public class IslandPerimeter_CSharp_463 : IIslandPerimeter_463
     {

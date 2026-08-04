@@ -1,7 +1,7 @@
 using LeetCodeProblems.HashingOrArrays;
 using LeetCodeProblems.Interfaces.Medium;
 
-namespace LeetCodeProblems.CSharp.HashingOrArrays
+namespace LeetCodeProblems.CSharp.Graph
 {
     public class OpenTheLock_CSharp_752 : IOpenTheLock_752
     {
@@ -59,7 +59,7 @@ namespace LeetCodeProblems.CSharp.HashingOrArrays
         {
             var charCurrent = current.ToCharArray();
             charCurrent[i] = (char)(minusOne + '0');
-            string temp = new String(charCurrent);
+            string temp = new string(charCurrent);
             if (!hashSet.Contains(temp)) 
             { 
                 hashSet.Add(temp);

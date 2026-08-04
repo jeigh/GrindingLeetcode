@@ -1,6 +1,6 @@
 using LeetCodeProblems.Interfaces.Medium;
 
-namespace LeetCodeProblems.CSharp.HashingOrArrays
+namespace LeetCodeProblems.CSharp.Graph
 {
 
     public class PacificAtlanticWaterFlow_Stack_CSharp_417 : IPacificAtlanticWaterFlow_417

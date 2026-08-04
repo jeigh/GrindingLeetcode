@@ -1,7 +1,7 @@
 using LeetCodeProblems.Interfaces.Medium;
 using LeetCodeProblems.Shared;
 
-namespace LeetCodeProblems.CSharp.HashingOrArrays
+namespace LeetCodeProblems.CSharp.Graph
 {
     public class CloneGraph_CSharp_133 : ICloneGraph_133
     {

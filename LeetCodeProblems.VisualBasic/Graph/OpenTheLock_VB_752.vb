@@ -1,7 +1,7 @@
 Imports System.Text
 Imports LeetCodeProblems.Interfaces.Medium
 
-Namespace HashingOrArrays
+Namespace Graph
     Public Class OpenTheLock_VB_752
         Implements IOpenTheLock_752
 

@@ -1,6 +1,6 @@
 Imports LeetCodeProblems.Interfaces.Easy
 
-Namespace HashingOrArrays
+Namespace Graph
     Public Class FindTheTownJudge_VB_997
         Implements IFindTheTownJudge_997
 

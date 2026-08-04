@@ -1,6 +1,6 @@
 using LeetCodeProblems.Interfaces.Easy;
 
-namespace LeetCodeProblems.CSharp.HashingOrArrays
+namespace LeetCodeProblems.CSharp.Graph
 {
     public class VerifyingAnAlienDictionary_CSharp_953 : IVerifyingAnAlienDictionary_953
     {

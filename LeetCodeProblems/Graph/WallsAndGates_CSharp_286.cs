@@ -1,6 +1,6 @@
 using LeetCodeProblems.Interfaces.Medium;
 
-namespace LeetCodeProblems.CSharp.HashingOrArrays
+namespace LeetCodeProblems.CSharp.Graph
 {
 
     public class WallsAndGates_CSharp_286 : IWallsAndGates_286

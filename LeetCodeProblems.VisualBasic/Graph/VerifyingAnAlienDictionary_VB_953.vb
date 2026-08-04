@@ -1,6 +1,6 @@
 Imports LeetCodeProblems.Interfaces.Easy
 
-Namespace HashingOrArrays
+Namespace Graph
     Public Class VerifyingAnAlienDictionary_VB_953
         Implements IVerifyingAnAlienDictionary_953
 

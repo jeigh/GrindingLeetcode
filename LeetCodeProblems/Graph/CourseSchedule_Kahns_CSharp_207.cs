@@ -1,6 +1,6 @@
 using LeetCodeProblems.Interfaces.Medium;
 
-namespace LeetCodeProblems.CSharp.HashingOrArrays
+namespace LeetCodeProblems.CSharp.Graph
 {
     public class CourseSchedule_Kahns_CSharp_207 : ICourseSchedule_207
     {
