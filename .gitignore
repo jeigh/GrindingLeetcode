@@ -364,3 +364,8 @@ FodyWeavers.xsd
 /.idea
 /cmake-build-debug-visual-studio
 /.claude/settings.local.json
+
+# Java / Maven
+target/
+*.iml
+.idea/

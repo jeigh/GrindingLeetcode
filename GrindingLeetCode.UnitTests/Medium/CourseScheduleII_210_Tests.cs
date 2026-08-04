@@ -10,6 +10,7 @@ namespace GrindingLeetCode.UnitTests.Medium
         public static IEnumerable<object[]> GetImplementations()
         {
             yield return new object[] { new CourseScheduleII_Solution_CSharp_210(), "C# Solution" };
+            yield return new object[] { new CourseScheduleII_Iterative_Solution_CSharp_210(), "C# Iterative Solution" };
 
             yield break;
         }
