@@ -1,6 +1,8 @@
-﻿namespace LeetCodeProblems.HashingOrArrays
+﻿using LeetCodeProblems.Interfaces.Medium;
+
+namespace LeetCodeProblems.CSharp.HashingOrArrays
 {
-    public class LargestConsecutiveSolution_128
+    public class LongestConsecutiveSolution_128 : ILongestConsecutiveSequence_128
     {
         // after misinterpreting the problem and writing a solution that did not target the test cases, I fell back on this hand-crafted solution
         // time complexity: O(n log n) due to sorting
